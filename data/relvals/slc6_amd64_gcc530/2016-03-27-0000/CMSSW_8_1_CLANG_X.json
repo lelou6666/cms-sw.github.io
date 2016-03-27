@@ -3855,6 +3855,33 @@
     },
     {
         "exitcode": 0,
+        "id": "301.0",
+        "name": "Pyquen_DiJet_pt80to120_2760GeV+Pyquen_DiJet_pt80to120_2760GeV+DIGIHIMIX+RECOHIMIX+HARVESTHI",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 51
+            },
+            {
+                "errors": 5,
+                "status": "PASSED",
+                "warnings": 1
+            },
+            {
+                "errors": 22,
+                "status": "PASSED",
+                "warnings": 98
+            },
+            {
+                "errors": 5,
+                "status": "PASSED",
+                "warnings": 10
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "302.0",
         "name": "Pyquen_ZeemumuJets_pt10_2760GeV+Pyquen_ZeemumuJets_pt10_2760GeV+DIGIHIMIX+RECOHIMIX+HARVESTHI",
         "steps": [
