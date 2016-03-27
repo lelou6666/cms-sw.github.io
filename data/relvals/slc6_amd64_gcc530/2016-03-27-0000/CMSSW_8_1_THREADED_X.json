@@ -2331,6 +2331,28 @@
     },
     {
         "exitcode": 0,
+        "id": "109.0",
+        "name": "H200ZZ4L+H200ZZ4L+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 49
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 95
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 554
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "116.0",
         "name": "QCD_Pt_80_120+QCD_Pt_80_120_2HS+DIGI+RECO",
         "steps": [
@@ -2392,6 +2414,28 @@
                 "errors": 20,
                 "status": "PASSED",
                 "warnings": 568
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "121.0",
+        "name": "TTbar+TTbar2HS+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 32
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 29
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 662
             }
         ]
     },
@@ -6240,6 +6284,50 @@
                 "errors": 20,
                 "status": "PASSED",
                 "warnings": 704
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4002.0",
+        "name": "ZEE+ZEEINPUT+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 86
+            },
+            {
+                "errors": 200,
+                "status": "PASSED",
+                "warnings": 1743
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4003.0",
+        "name": "ZMM+ZMMINPUT+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 200
+            },
+            {
+                "errors": 200,
+                "status": "PASSED",
+                "warnings": 2270
             }
         ]
     },
