@@ -1269,7 +1269,7 @@
             "comp_baseline_state": "ok", 
             "builds": [], 
             "valgrind": "not-found", 
-            "compared_tags": "CMSSW_7_1_17_patch1-->CMSSW_7_1_20_patch3", 
+            "compared_tags": "CMSSW_7_1_17_patch1-->CMSSW_7_1_21", 
             "dqm_tests": "inprogress", 
             "utests": [], 
             "cmsdistTags": {}, 
@@ -1280,9 +1280,18 @@
             "tests_archs": [], 
             "comp_baseline": "inprogress", 
             "inProgress": false, 
-            "release_name": "CMSSW_7_1_20_patch3", 
+            "release_name": "CMSSW_7_1_21", 
             "RVExceptions": null, 
             "merged_prs": [
+                {
+                    "hash": "d680abf1aae0cc71210d4503a2d63db8b0cbf0f6", 
+                    "title": "Add Pythia8 UserHook for Resonance decay filtering (71x)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/12902", 
+                    "number": "12902", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bendavid"
+                }, 
                 {
                     "hash": "383f1e052690fe588d7a1116ba804e426ab05d2c", 
                     "title": "Add vertex smearing parameters as measured during Run2015A (0T) and Run2015B (3.8T) (71X)", 
@@ -1302,6 +1311,15 @@
                     "author_login": "heppye"
                 }, 
                 {
+                    "hash": "d74c9397cc72653f6500928fefe5b896b4c793ca", 
+                    "title": "Sherpa change sherpack retrieval", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/12837", 
+                    "number": "12837", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "thuer"
+                }, 
+                {
                     "hash": "506c9c5863f562e368bb6bc5a52e2e66ecd06c40", 
                     "title": "adding Dstar filter for enriched MC production", 
                     "url": "https://github.com/cms-sw/cmssw/pull/12408", 
@@ -1309,6 +1327,24 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "vmariani"
+                }, 
+                {
+                    "hash": "7d4547478353644843e8f8c7741d374db4a19ac6", 
+                    "title": "fixing PythiaMomDauFilter.cc", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/12759", 
+                    "number": "12759", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "taweiXcms"
+                }, 
+                {
+                    "hash": "aebccdd05bf5e92968b65bab7886580b635d9e33", 
+                    "title": "VBF filters for QCD sample requested by VBF InvHiggs group", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/12657", 
+                    "number": "12657", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "chayanit"
                 }, 
                 {
                     "hash": "0c0dc31a751da38b7b4d5918c6508c04ef221911", 
@@ -1320,13 +1356,13 @@
                     "author_login": "covarell"
                 }, 
                 {
-                    "hash": "b621df541b270c80cd5c6b2b9600cf0d4b6f0984", 
-                    "title": "back port modified and newly added relval workflows from 75X and 76X", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/10615", 
-                    "number": "10615", 
+                    "hash": "9a7e5e72857189e5f6ab9ee9f0d1fd8719ed7e4b", 
+                    "title": "Fixing horrible typo. Also add a Log message for force decay and clean when a decay is rejected", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/10776", 
+                    "number": "10776", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "hengne"
+                    "author_login": "alberto-sanchez"
                 }, 
                 {
                     "hash": "1fdd7db217668c5f5235f2c1e6b19d35f26f9be9", 
@@ -1392,6 +1428,15 @@
                     "author_login": "mandrenguyen"
                 }, 
                 {
+                    "hash": "2f7d9bb9f2cc406ecf480fe88de7c3bb485f6c94", 
+                    "title": "Backporting to 71X: adding Pythia8 Filter for genparticles HT", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/12800", 
+                    "number": "12800", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "alefisico"
+                }, 
+                {
                     "hash": "2962a2a8622c537eb3ff224be8edbbdaa7aefe7b", 
                     "title": "Vtx smearing parameters for realistic 50ns collisions 13 TeV", 
                     "url": "https://github.com/cms-sw/cmssw/pull/10224", 
@@ -1446,6 +1491,15 @@
                     "author_login": "thuer"
                 }, 
                 {
+                    "hash": "289f4ff38a4ff615d3c5738b4ea89a886d62015b", 
+                    "title": "Add particle list files and update decay files for BPH (Bmm)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/12686", 
+                    "number": "12686", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "heppye"
+                }, 
+                {
                     "hash": "ddea33b48a5fc55a5af49da2c46bb59ce2af9267", 
                     "title": "Changes to PartonShowerBsHepMCFilter and LHEGenericFilter", 
                     "url": "https://github.com/cms-sw/cmssw/pull/11149", 
@@ -1455,13 +1509,31 @@
                     "author_login": "perrozzi"
                 }, 
                 {
-                    "hash": "9a7e5e72857189e5f6ab9ee9f0d1fd8719ed7e4b", 
-                    "title": "Fixing horrible typo. Also add a Log message for force decay and clean when a decay is rejected", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/10776", 
-                    "number": "10776", 
+                    "hash": "9a55e2677d1b53423f41637c02bacfdd9ccb1ea6", 
+                    "title": "fix Bu_D0Pi_KPiPi.dec", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/13134", 
+                    "number": "13134", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "alberto-sanchez"
+                    "author_login": "taweiXcms"
+                }, 
+                {
+                    "hash": "b621df541b270c80cd5c6b2b9600cf0d4b6f0984", 
+                    "title": "back port modified and newly added relval workflows from 75X and 76X", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/10615", 
+                    "number": "10615", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "hengne"
+                }, 
+                {
+                    "hash": "8a5a8d58d2dbd936e173bc45544f3a12fc51b892", 
+                    "title": "Adding castor geometry files for 2015 position, backport to 7_1", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/11733", 
+                    "number": "11733", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cbaus"
                 }, 
                 {
                     "hash": "52e9926efbf698147353bf480623e749e1dfd2d3", 
@@ -1499,134 +1571,7 @@
             "comp_baseline_state": "ok", 
             "builds": [], 
             "valgrind": "not-found", 
-            "compared_tags": "CMSSW_7_1_20_patch3-->CMSSW_7_1_21", 
-            "dqm_tests": "inprogress", 
-            "utests": [], 
-            "cmsdistTags": {}, 
-            "igprof": "not-found", 
-            "relvals": [], 
-            "static_checks": "not-found", 
-            "isIB": false, 
-            "tests_archs": [], 
-            "comp_baseline": "inprogress", 
-            "inProgress": false, 
-            "release_name": "CMSSW_7_1_21", 
-            "RVExceptions": null, 
-            "merged_prs": [
-                {
-                    "hash": "2f7d9bb9f2cc406ecf480fe88de7c3bb485f6c94", 
-                    "title": "Backporting to 71X: adding Pythia8 Filter for genparticles HT", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/12800", 
-                    "number": "12800", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "alefisico"
-                }, 
-                {
-                    "hash": "289f4ff38a4ff615d3c5738b4ea89a886d62015b", 
-                    "title": "Add particle list files and update decay files for BPH (Bmm)", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/12686", 
-                    "number": "12686", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "heppye"
-                }, 
-                {
-                    "hash": "7d4547478353644843e8f8c7741d374db4a19ac6", 
-                    "title": "fixing PythiaMomDauFilter.cc", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/12759", 
-                    "number": "12759", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "taweiXcms"
-                }, 
-                {
-                    "hash": "aebccdd05bf5e92968b65bab7886580b635d9e33", 
-                    "title": "VBF filters for QCD sample requested by VBF InvHiggs group", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/12657", 
-                    "number": "12657", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "chayanit"
-                }, 
-                {
-                    "hash": "d680abf1aae0cc71210d4503a2d63db8b0cbf0f6", 
-                    "title": "Add Pythia8 UserHook for Resonance decay filtering (71x)", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/12902", 
-                    "number": "12902", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "bendavid"
-                }, 
-                {
-                    "hash": "9a55e2677d1b53423f41637c02bacfdd9ccb1ea6", 
-                    "title": "fix Bu_D0Pi_KPiPi.dec", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/13134", 
-                    "number": "13134", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "taweiXcms"
-                }, 
-                {
-                    "hash": "d74c9397cc72653f6500928fefe5b896b4c793ca", 
-                    "title": "Sherpa change sherpack retrieval", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/12837", 
-                    "number": "12837", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "thuer"
-                }, 
-                {
-                    "hash": "8a5a8d58d2dbd936e173bc45544f3a12fc51b892", 
-                    "title": "Adding castor geometry files for 2015 position, backport to 7_1", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/11733", 
-                    "number": "11733", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "cbaus"
-                }
-            ], 
-            "hlt_tests": "inprogress"
-        }, 
-        {
-            "fwlite": [], 
-            "addons": [], 
-            "comp_baseline_state": "ok", 
-            "builds": [], 
-            "valgrind": "not-found", 
-            "compared_tags": "CMSSW_7_1_21-->CMSSW_7_1_21_patch1", 
-            "dqm_tests": "inprogress", 
-            "utests": [], 
-            "cmsdistTags": {}, 
-            "igprof": "not-found", 
-            "relvals": [], 
-            "static_checks": "not-found", 
-            "isIB": false, 
-            "tests_archs": [], 
-            "comp_baseline": "inprogress", 
-            "inProgress": false, 
-            "release_name": "CMSSW_7_1_21_patch1", 
-            "RVExceptions": null, 
-            "merged_prs": [
-                {
-                    "hash": "cd95512a3788e866998d3ca7aac41bc086273900", 
-                    "title": "added snippet files for tune uncertainties", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/13294", 
-                    "number": "13294", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "covarell"
-                }
-            ], 
-            "hlt_tests": "inprogress"
-        }, 
-        {
-            "fwlite": [], 
-            "addons": [], 
-            "comp_baseline_state": "ok", 
-            "builds": [], 
-            "valgrind": "not-found", 
-            "compared_tags": "CMSSW_7_1_21_patch1-->CMSSW_7_1_21_patch2", 
+            "compared_tags": "CMSSW_7_1_21-->CMSSW_7_1_21_patch2", 
             "dqm_tests": "inprogress", 
             "utests": [], 
             "cmsdistTags": {}, 
@@ -1640,6 +1585,15 @@
             "release_name": "CMSSW_7_1_21_patch2", 
             "RVExceptions": null, 
             "merged_prs": [
+                {
+                    "hash": "cd95512a3788e866998d3ca7aac41bc086273900", 
+                    "title": "added snippet files for tune uncertainties", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/13294", 
+                    "number": "13294", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "covarell"
+                }, 
                 {
                     "hash": "ce880804a1e229464ac476d6f9e1a5dd6c3a27c1", 
                     "title": "bsunanda:Run2_alca36 bacport the changes to PythiaFilterIsolatedTrack to CMSSW version 7_1_X", 
@@ -1778,11 +1732,73 @@
         }, 
         {
             "fwlite": [], 
+            "addons": [
+                {
+                    "arch": "slc6_amd64_gcc481", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc481/www/sun/7.1-sun-00/CMSSW_7_1_X_2016-03-27-0000/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "comp_baseline_state": "ok", 
+            "builds": [
+                {
+                    "arch": "slc6_amd64_gcc481", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc481/www/sun/7.1-sun-00/CMSSW_7_1_X_2016-03-27-0000/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 2
+                    }
+                }
+            ], 
+            "valgrind": "not-found", 
+            "compared_tags": "CMSSW_7_1_X_2016-03-20-0000-->CMSSW_7_1_X_2016-03-27-0000", 
+            "dqm_tests": "found", 
+            "utests": [
+                {
+                    "arch": "slc6_amd64_gcc481", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc481/www/sun/7.1-sun-00/CMSSW_7_1_X_2016-03-27-0000/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "4"
+                    }
+                }
+            ], 
+            "cmsdistTags": {
+                "slc6_amd64_gcc481": "IB/CMSSW_7_1_X_2016-03-27-0000/slc6_amd64_gcc481"
+            }, 
+            "igprof": "not-found", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc6_amd64_gcc481", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc481/www/sun/7.1-sun-00/CMSSW_7_1_X_2016-03-27-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 849, 
+                        "num_failed": 30
+                    }
+                }
+            ], 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "tests_archs": [
+                "slc6_amd64_gcc481"
+            ], 
+            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_7_1_X_2016-03-27-0000/slc6_amd64_gcc481/-GenuineIntel/matrix-results", 
+            "inProgress": false, 
+            "release_name": "CMSSW_7_1_X_2016-03-27-0000", 
+            "RVExceptions": null, 
+            "merged_prs": [], 
+            "hlt_tests": "found"
+        }, 
+        {
+            "fwlite": [], 
             "addons": [], 
             "comp_baseline_state": "ok", 
             "builds": [], 
             "valgrind": "not-found", 
-            "compared_tags": "CMSSW_7_1_X_2016-03-20-0000-->CMSSW_7_1_X", 
+            "compared_tags": "CMSSW_7_1_X_2016-03-27-0000-->CMSSW_7_1_X", 
             "dqm_tests": "inprogress", 
             "utests": [], 
             "cmsdistTags": {}, 

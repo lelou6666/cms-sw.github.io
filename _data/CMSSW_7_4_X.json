@@ -3136,23 +3136,75 @@
             "hlt_tests": "inprogress"
         }, 
         {
-            "fwlite": [], 
-            "addons": [], 
+            "fwlite": [
+                {
+                    "arch": "slc6_amd64_gcc491", 
+                    "passed": "error", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/sun/7.4-sun-00/CMSSW_7_4_X_2016-03-13-0000/new_FWLITE/logAnalysis.pkl", 
+                    "details": {
+                        "miscError": 6, 
+                        "compError": 2, 
+                        "linkError": 27
+                    }
+                }
+            ], 
+            "addons": [
+                {
+                    "arch": "slc6_amd64_gcc491", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/sun/7.4-sun-00/CMSSW_7_4_X_2016-03-13-0000/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
             "comp_baseline_state": "ok", 
-            "builds": [], 
-            "compared_tags": "CMSSW_7_4_9_patch1-->CMSSW_7_4_16_patch1", 
+            "builds": [
+                {
+                    "arch": "slc6_amd64_gcc491", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/sun/7.4-sun-00/CMSSW_7_4_X_2016-03-13-0000/new/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 2, 
+                        "ignoreWarning": 20
+                    }
+                }
+            ], 
+            "compared_tags": "CMSSW_7_4_9_patch1-->CMSSW_7_4_X_2016-03-13-0000", 
             "valgrind": "inprogress", 
-            "utests": [], 
+            "utests": [
+                {
+                    "arch": "slc6_amd64_gcc491", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/sun/7.4-sun-00/CMSSW_7_4_X_2016-03-13-0000/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "2"
+                    }
+                }
+            ], 
             "dqm_tests": "inprogress", 
             "igprof": "not-found", 
-            "relvals": [], 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc6_amd64_gcc491", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/sun/7.4-sun-00/CMSSW_7_4_X_2016-03-13-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 987, 
+                        "num_failed": 23
+                    }
+                }
+            ], 
             "static_checks": "inprogress", 
-            "cmsdistTags": {}, 
-            "isIB": false, 
+            "cmsdistTags": {
+                "slc6_amd64_gcc491": "IB/CMSSW_7_4_X_2016-03-13-0000/slc6_amd64_gcc491"
+            }, 
+            "isIB": true, 
             "comp_baseline": "inprogress", 
             "inProgress": false, 
-            "release_name": "CMSSW_7_4_16_patch1", 
-            "tests_archs": [], 
+            "release_name": "CMSSW_7_4_X_2016-03-13-0000", 
+            "tests_archs": [
+                "slc6_amd64_gcc491"
+            ], 
             "RVExceptions": null, 
             "merged_prs": [
                 {
@@ -3183,13 +3235,13 @@
                     "author_login": "fcouderc"
                 }, 
                 {
-                    "hash": "7340555132b62a1a9986c851723c99a40202885b", 
-                    "title": "bsunanda:Run2-alca20 Backport from 7_6 codes to fix crashes in relval", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/10294", 
-                    "number": "10294", 
+                    "hash": "1f648a608de04cfdf8086650f0bb1e6fc2cb94cf", 
+                    "title": "Bugfix: raise error when running a validation with no runs", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/12928", 
+                    "number": "12928", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "bsunanda"
+                    "author_login": "hroskes"
                 }, 
                 {
                     "hash": "0a310ddfbba5bba48f57a84082f95686c46f22c5", 
@@ -3291,13 +3343,22 @@
                     "author_login": "hroskes"
                 }, 
                 {
-                    "hash": "1fc0e8cdec49a1a55ef1c5331d7ca390243f12f6", 
-                    "title": "DQM module updates for Dilepton+HT250 and Dilepton+HT300 paths (CMSHLT587)", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/11383", 
-                    "number": "11383", 
+                    "hash": "cb10c936eb4fa218efb050538ed73078658cfc7a", 
+                    "title": "Backport of #12523: Small bugfixes in alignment workflows", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/12526", 
+                    "number": "12526", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "mrcarver"
+                    "author_login": "hroskes"
+                }, 
+                {
+                    "hash": "5c1998eb0970bdddd82b438a5a7c974263c48c6a", 
+                    "title": "APE tool implemented, PR #10601and PR#12783 backported", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/10893", 
+                    "number": "10893", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cschomak"
                 }, 
                 {
                     "hash": "f6dc8e7bdaa739d36d4262c899e09833d2031723", 
@@ -3352,6 +3413,15 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "threus"
+                }, 
+                {
+                    "hash": "7340555132b62a1a9986c851723c99a40202885b", 
+                    "title": "bsunanda:Run2-alca20 Backport from 7_6 codes to fix crashes in relval", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/10294", 
+                    "number": "10294", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
                 }, 
                 {
                     "hash": "6683749c9ed96c76489a923b7559f8dc775897ed", 
@@ -3606,6 +3676,15 @@
                     "author_login": "alja"
                 }, 
                 {
+                    "hash": "94ebd7118385b7de5e5d17a4a9e70951da28861b", 
+                    "title": "Alignment filters 74X (Backport of #12776)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/12780", 
+                    "number": "12780", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ghellwig"
+                }, 
+                {
                     "hash": "fd951579f0d05c3b4c15e31c40edee300b4c5fe9", 
                     "title": "Moving GBRForestWriter to CommonTools/Utils: 74X", 
                     "url": "https://github.com/cms-sw/cmssw/pull/10755", 
@@ -3705,13 +3784,13 @@
                     "author_login": "smorovic"
                 }, 
                 {
-                    "hash": "0879b80663e6077e332b3d22445514bdfeffa261", 
-                    "title": "New GT for re-reco fixing issues with HCAL and ECAL tags.", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/11567", 
-                    "number": "11567", 
+                    "hash": "535c0e8f1166f66ae09fe93cd9d6497f1e41f221", 
+                    "title": "Set hierarchy constraints as default in Millepede", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/9714", 
+                    "number": "9714", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "diguida"
+                    "author_login": "mschrode"
                 }, 
                 {
                     "hash": "904ecc66e3eaba955e83e701aaadc271104b590d", 
@@ -3741,13 +3820,13 @@
                     "author_login": "mmusich"
                 }, 
                 {
-                    "hash": "02a8a7150effbe465706437dfe35b7951d3f98d9", 
-                    "title": "Fix DQM py files for ConfDB parsing (74X)", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/10915", 
-                    "number": "10915", 
+                    "hash": "fa48c54c5977eebb53c67366ebfaef1f7489e269", 
+                    "title": "multithreading fix for 74x: EcalRingCalibrationTools", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/11348", 
+                    "number": "11348", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "Martin-Grunewald"
+                    "author_login": "fwyzard"
                 }, 
                 {
                     "hash": "9bbd845a53c214110eb43abf8009000284b79de3", 
@@ -3804,6 +3883,15 @@
                     "author_login": "dinardo"
                 }, 
                 {
+                    "hash": "8ca6c9f09297b43f6a4341a94170d202da47f93e", 
+                    "title": "Isolation in CITK", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/13223", 
+                    "number": "13223", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ishvetso"
+                }, 
+                {
                     "hash": "90a773d4d59936cce2d4cedae7060389612cee39", 
                     "title": " HLT BTV DQM offline - 74X backport", 
                     "url": "https://github.com/cms-sw/cmssw/pull/11307", 
@@ -3820,6 +3908,15 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "rappoccio"
+                }, 
+                {
+                    "hash": "81b25c8c6cce615b20c7843cdaab273e023a8e8c", 
+                    "title": "Remove obsolete cms scripts 74X (Backport of #12783, except APEEstimation package)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/12795", 
+                    "number": "12795", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ghellwig"
                 }, 
                 {
                     "hash": "2ba0e1f8cd060ac1d23646e4bb9cdbdd7694651e", 
@@ -3867,13 +3964,13 @@
                     "author_login": "wmtan"
                 }, 
                 {
-                    "hash": "e65ee30c065239cb5a649a5ca7115cdd6935e131", 
-                    "title": " Zmumu validation ported to 74X", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/10854", 
-                    "number": "10854", 
+                    "hash": "1fc0e8cdec49a1a55ef1c5331d7ca390243f12f6", 
+                    "title": "DQM module updates for Dilepton+HT250 and Dilepton+HT300 paths (CMSHLT587)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/11383", 
+                    "number": "11383", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "cschomak"
+                    "author_login": "mrcarver"
                 }, 
                 {
                     "hash": "48b67f44e2d259ef8ccfc715f7d87046e2285771", 
@@ -4119,13 +4216,13 @@
                     "author_login": "capalmer85"
                 }, 
                 {
-                    "hash": "fa48c54c5977eebb53c67366ebfaef1f7489e269", 
-                    "title": "multithreading fix for 74x: EcalRingCalibrationTools", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/11348", 
-                    "number": "11348", 
+                    "hash": "dc132290f3157e567a0239e20073ff4573d19a85", 
+                    "title": "EP pcombination protection", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/13283", 
+                    "number": "13283", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "fwyzard"
+                    "author_login": "rafaellopesdesa"
                 }, 
                 {
                     "hash": "70103b2752f97d00e7ca628db10dcbe8d04a7b67", 
@@ -4434,6 +4531,15 @@
                     "author_login": "lgray"
                 }, 
                 {
+                    "hash": "e65ee30c065239cb5a649a5ca7115cdd6935e131", 
+                    "title": " Zmumu validation ported to 74X", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/10854", 
+                    "number": "10854", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cschomak"
+                }, 
+                {
                     "hash": "3f23740569d0bea9d204679d5b8461af624f1b57", 
                     "title": "forcing EE qT to be always true", 
                     "url": "https://github.com/cms-sw/cmssw/pull/10902", 
@@ -4504,6 +4610,15 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "cms-tsg-storm"
+                }, 
+                {
+                    "hash": "0d349d18c235eb3dc75bd9cfc7c38d2f54a2f2db", 
+                    "title": "Freeing INI file buffer after writing the file is finished (74X)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/11455", 
+                    "number": "11455", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "smorovic"
                 }, 
                 {
                     "hash": "ed7f958fbe183943692a7392c39eb9f6e8a5c2e3", 
@@ -4632,6 +4747,15 @@
                     "author_login": "KiSooLee"
                 }, 
                 {
+                    "hash": "0879b80663e6077e332b3d22445514bdfeffa261", 
+                    "title": "New GT for re-reco fixing issues with HCAL and ECAL tags.", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/11567", 
+                    "number": "11567", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "diguida"
+                }, 
+                {
                     "hash": "36c7dc2602a26b6bc25c23152f0ea7f14b5a9cb6", 
                     "title": "RazorHbb HLT DQM for 74X", 
                     "url": "https://github.com/cms-sw/cmssw/pull/11646", 
@@ -4650,13 +4774,13 @@
                     "author_login": "prbbing"
                 }, 
                 {
-                    "hash": "0d349d18c235eb3dc75bd9cfc7c38d2f54a2f2db", 
-                    "title": "Freeing INI file buffer after writing the file is finished (74X)", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/11455", 
-                    "number": "11455", 
+                    "hash": "d20bfb8a6b62cc8cb835768be2f010823d27ecd3", 
+                    "title": "FIX of PU scenario mix_2015_25ns_FallMC_matchData_PoissonOOTPU_cfi.py", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/12885", 
+                    "number": "12885", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "smorovic"
+                    "author_login": "franzoni"
                 }, 
                 {
                     "hash": "3167b9e6ac69e3125122209baa70e2e8140c0f43", 
@@ -4675,6 +4799,15 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "dmitrijus"
+                }, 
+                {
+                    "hash": "02a8a7150effbe465706437dfe35b7951d3f98d9", 
+                    "title": "Fix DQM py files for ConfDB parsing (74X)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/10915", 
+                    "number": "10915", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Martin-Grunewald"
                 }, 
                 {
                     "hash": "179d4e9590c8a9d14558f3b56a7341958516b02f", 
@@ -4887,185 +5020,6 @@
             "hlt_tests": "inprogress"
         }, 
         {
-            "fwlite": [], 
-            "addons": [], 
-            "comp_baseline_state": "ok", 
-            "builds": [], 
-            "compared_tags": "CMSSW_7_4_16_patch1-->CMSSW_7_4_16_patch2", 
-            "valgrind": "inprogress", 
-            "utests": [], 
-            "dqm_tests": "inprogress", 
-            "igprof": "not-found", 
-            "relvals": [], 
-            "static_checks": "inprogress", 
-            "cmsdistTags": {}, 
-            "isIB": false, 
-            "comp_baseline": "inprogress", 
-            "inProgress": false, 
-            "release_name": "CMSSW_7_4_16_patch2", 
-            "tests_archs": [], 
-            "RVExceptions": null, 
-            "merged_prs": [
-                {
-                    "hash": "5c1998eb0970bdddd82b438a5a7c974263c48c6a", 
-                    "title": "APE tool implemented, PR #10601and PR#12783 backported", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/10893", 
-                    "number": "10893", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "cschomak"
-                }, 
-                {
-                    "hash": "94ebd7118385b7de5e5d17a4a9e70951da28861b", 
-                    "title": "Alignment filters 74X (Backport of #12776)", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/12780", 
-                    "number": "12780", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "ghellwig"
-                }, 
-                {
-                    "hash": "cb10c936eb4fa218efb050538ed73078658cfc7a", 
-                    "title": "Backport of #12523: Small bugfixes in alignment workflows", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/12526", 
-                    "number": "12526", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "hroskes"
-                }, 
-                {
-                    "hash": "d20bfb8a6b62cc8cb835768be2f010823d27ecd3", 
-                    "title": "FIX of PU scenario mix_2015_25ns_FallMC_matchData_PoissonOOTPU_cfi.py", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/12885", 
-                    "number": "12885", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "franzoni"
-                }, 
-                {
-                    "hash": "81b25c8c6cce615b20c7843cdaab273e023a8e8c", 
-                    "title": "Remove obsolete cms scripts 74X (Backport of #12783, except APEEstimation package)", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/12795", 
-                    "number": "12795", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "ghellwig"
-                }
-            ], 
-            "hlt_tests": "inprogress"
-        }, 
-        {
-            "fwlite": [
-                {
-                    "arch": "slc6_amd64_gcc491", 
-                    "passed": "error", 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/sun/7.4-sun-00/CMSSW_7_4_X_2016-03-13-0000/new_FWLITE/logAnalysis.pkl", 
-                    "details": {
-                        "miscError": 6, 
-                        "compError": 2, 
-                        "linkError": 27
-                    }
-                }
-            ], 
-            "addons": [
-                {
-                    "arch": "slc6_amd64_gcc491", 
-                    "passed": true, 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/sun/7.4-sun-00/CMSSW_7_4_X_2016-03-13-0000/addOnTests.log", 
-                    "details": {}
-                }
-            ], 
-            "comp_baseline_state": "ok", 
-            "builds": [
-                {
-                    "arch": "slc6_amd64_gcc491", 
-                    "passed": "warning", 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/sun/7.4-sun-00/CMSSW_7_4_X_2016-03-13-0000/new/logAnalysis.pkl", 
-                    "details": {
-                        "compWarning": 2, 
-                        "ignoreWarning": 20
-                    }
-                }
-            ], 
-            "compared_tags": "CMSSW_7_4_16_patch2-->CMSSW_7_4_X_2016-03-13-0000", 
-            "valgrind": "inprogress", 
-            "utests": [
-                {
-                    "arch": "slc6_amd64_gcc491", 
-                    "passed": "failed", 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/sun/7.4-sun-00/CMSSW_7_4_X_2016-03-13-0000/unitTests-summary.log", 
-                    "details": {
-                        "num_fails": "2"
-                    }
-                }
-            ], 
-            "dqm_tests": "inprogress", 
-            "igprof": "not-found", 
-            "relvals": [
-                {
-                    "done": true, 
-                    "arch": "slc6_amd64_gcc491", 
-                    "passed": false, 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/sun/7.4-sun-00/CMSSW_7_4_X_2016-03-13-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                    "details": {
-                        "num_passed": 987, 
-                        "num_failed": 23
-                    }
-                }
-            ], 
-            "static_checks": "inprogress", 
-            "cmsdistTags": {
-                "slc6_amd64_gcc491": "IB/CMSSW_7_4_X_2016-03-13-0000/slc6_amd64_gcc491"
-            }, 
-            "isIB": true, 
-            "comp_baseline": "inprogress", 
-            "inProgress": false, 
-            "release_name": "CMSSW_7_4_X_2016-03-13-0000", 
-            "tests_archs": [
-                "slc6_amd64_gcc491"
-            ], 
-            "RVExceptions": null, 
-            "merged_prs": [
-                {
-                    "hash": "1f648a608de04cfdf8086650f0bb1e6fc2cb94cf", 
-                    "title": "Bugfix: raise error when running a validation with no runs", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/12928", 
-                    "number": "12928", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "hroskes"
-                }, 
-                {
-                    "hash": "8ca6c9f09297b43f6a4341a94170d202da47f93e", 
-                    "title": "Isolation in CITK", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/13223", 
-                    "number": "13223", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "ishvetso"
-                }, 
-                {
-                    "hash": "dc132290f3157e567a0239e20073ff4573d19a85", 
-                    "title": "EP pcombination protection", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/13283", 
-                    "number": "13283", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "rafaellopesdesa"
-                }, 
-                {
-                    "hash": "535c0e8f1166f66ae09fe93cd9d6497f1e41f221", 
-                    "title": "Set hierarchy constraints as default in Millepede", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/9714", 
-                    "number": "9714", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "mschrode"
-                }
-            ], 
-            "hlt_tests": "inprogress"
-        }, 
-        {
             "fwlite": [
                 {
                     "arch": "slc6_amd64_gcc491", 
@@ -5139,11 +5093,85 @@
             "hlt_tests": "found"
         }, 
         {
+            "fwlite": [
+                {
+                    "arch": "slc6_amd64_gcc491", 
+                    "passed": "error", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/sun/7.4-sun-00/CMSSW_7_4_X_2016-03-27-0000/new_FWLITE/logAnalysis.pkl", 
+                    "details": {
+                        "miscError": 6, 
+                        "compError": 2, 
+                        "linkError": 27
+                    }
+                }
+            ], 
+            "addons": [
+                {
+                    "arch": "slc6_amd64_gcc491", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/sun/7.4-sun-00/CMSSW_7_4_X_2016-03-27-0000/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "comp_baseline_state": "ok", 
+            "builds": [
+                {
+                    "arch": "slc6_amd64_gcc491", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/sun/7.4-sun-00/CMSSW_7_4_X_2016-03-27-0000/new/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 2, 
+                        "ignoreWarning": 20
+                    }
+                }
+            ], 
+            "compared_tags": "CMSSW_7_4_X_2016-03-20-0000-->CMSSW_7_4_X_2016-03-27-0000", 
+            "valgrind": "found", 
+            "utests": [
+                {
+                    "arch": "slc6_amd64_gcc491", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/sun/7.4-sun-00/CMSSW_7_4_X_2016-03-27-0000/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "2"
+                    }
+                }
+            ], 
+            "dqm_tests": "found", 
+            "igprof": "not-found", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc6_amd64_gcc491", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/sun/7.4-sun-00/CMSSW_7_4_X_2016-03-27-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 976, 
+                        "num_failed": 25
+                    }
+                }
+            ], 
+            "static_checks": "inprogress", 
+            "cmsdistTags": {
+                "slc6_amd64_gcc491": "IB/CMSSW_7_4_X_2016-03-27-0000/slc6_amd64_gcc491"
+            }, 
+            "isIB": true, 
+            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_7_4_X_2016-03-27-0000/slc6_amd64_gcc491/-GenuineIntel/matrix-results", 
+            "inProgress": false, 
+            "release_name": "CMSSW_7_4_X_2016-03-27-0000", 
+            "tests_archs": [
+                "slc6_amd64_gcc491"
+            ], 
+            "RVExceptions": null, 
+            "merged_prs": [], 
+            "hlt_tests": "found"
+        }, 
+        {
             "fwlite": [], 
             "addons": [], 
             "comp_baseline_state": "ok", 
             "builds": [], 
-            "compared_tags": "CMSSW_7_4_X_2016-03-20-0000-->CMSSW_7_4_X", 
+            "compared_tags": "CMSSW_7_4_X_2016-03-27-0000-->CMSSW_7_4_X", 
             "valgrind": "inprogress", 
             "utests": [], 
             "dqm_tests": "inprogress", 

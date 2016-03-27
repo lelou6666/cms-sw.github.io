@@ -2817,7 +2817,7 @@
             "comp_baseline_state": "ok", 
             "builds": [], 
             "valgrind": "not-found", 
-            "compared_tags": "CMSSW_6_2_0_SLHC23_patch2-->CMSSW_6_2_0_SLHC27", 
+            "compared_tags": "CMSSW_6_2_0_SLHC23_patch2-->CMSSW_6_2_0_SLHC28", 
             "dqm_tests": "inprogress", 
             "utests": [], 
             "cmsdistTags": {}, 
@@ -2828,7 +2828,7 @@
             "tests_archs": [], 
             "comp_baseline": "inprogress", 
             "inProgress": false, 
-            "release_name": "CMSSW_6_2_0_SLHC27", 
+            "release_name": "CMSSW_6_2_0_SLHC28", 
             "RVExceptions": null, 
             "merged_prs": [
                 {
@@ -3028,6 +3028,24 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "mark-grimes"
+                }, 
+                {
+                    "hash": "5cd9e78f9edd0f2fd3a9f1b2f5b13bbcd14fb38d", 
+                    "title": "Hermetic Timing SLHC27 (fix crashes in RECO so we can use the usual workflows)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/12962", 
+                    "number": "12962", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "lgray"
+                }, 
+                {
+                    "hash": "0d468ca99219051e8248892ec9aafc2ac0d0614c", 
+                    "title": "Added the missing Done Checking dependency message needed by the IBs scripts", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/6436", 
+                    "number": "6436", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": true, 
+                    "author_login": "smuzaffar"
                 }, 
                 {
                     "hash": "37a54e13c341e5d3de783636e7417059468e3532", 
@@ -3538,47 +3556,6 @@
         }, 
         {
             "fwlite": [], 
-            "addons": [], 
-            "comp_baseline_state": "ok", 
-            "builds": [], 
-            "valgrind": "not-found", 
-            "compared_tags": "CMSSW_6_2_0_SLHC27-->CMSSW_6_2_0_SLHC28", 
-            "dqm_tests": "inprogress", 
-            "utests": [], 
-            "cmsdistTags": {}, 
-            "igprof": "not-found", 
-            "relvals": [], 
-            "static_checks": "not-found", 
-            "isIB": false, 
-            "tests_archs": [], 
-            "comp_baseline": "inprogress", 
-            "inProgress": false, 
-            "release_name": "CMSSW_6_2_0_SLHC28", 
-            "RVExceptions": null, 
-            "merged_prs": [
-                {
-                    "hash": "0d468ca99219051e8248892ec9aafc2ac0d0614c", 
-                    "title": "Added the missing Done Checking dependency message needed by the IBs scripts", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/6436", 
-                    "number": "6436", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": true, 
-                    "author_login": "smuzaffar"
-                }, 
-                {
-                    "hash": "5cd9e78f9edd0f2fd3a9f1b2f5b13bbcd14fb38d", 
-                    "title": "Hermetic Timing SLHC27 (fix crashes in RECO so we can use the usual workflows)", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/12962", 
-                    "number": "12962", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "lgray"
-                }
-            ], 
-            "hlt_tests": "inprogress"
-        }, 
-        {
-            "fwlite": [], 
             "addons": [
                 {
                     "arch": "slc6_amd64_gcc472", 
@@ -3768,11 +3745,74 @@
         }, 
         {
             "fwlite": [], 
+            "addons": [
+                {
+                    "arch": "slc6_amd64_gcc472", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc472/www/sun/6.2-sun-00/CMSSW_6_2_X_SLHC_2016-03-27-0000/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "comp_baseline_state": "ok", 
+            "builds": [
+                {
+                    "arch": "slc6_amd64_gcc472", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc472/www/sun/6.2-sun-00/CMSSW_6_2_X_SLHC_2016-03-27-0000/new/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 16, 
+                        "ignoreWarning": 2
+                    }
+                }
+            ], 
+            "valgrind": "not-found", 
+            "compared_tags": "CMSSW_6_2_X_SLHC_2016-03-20-0000-->CMSSW_6_2_X_SLHC_2016-03-27-0000", 
+            "dqm_tests": "found", 
+            "utests": [
+                {
+                    "arch": "slc6_amd64_gcc472", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc472/www/sun/6.2-sun-00/CMSSW_6_2_X_SLHC_2016-03-27-0000/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "16"
+                    }
+                }
+            ], 
+            "cmsdistTags": {
+                "slc6_amd64_gcc472": "IB/CMSSW_6_2_X_SLHC_2016-03-27-0000/slc6_amd64_gcc472"
+            }, 
+            "igprof": "not-found", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc6_amd64_gcc472", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc472/www/sun/6.2-sun-00/CMSSW_6_2_X_SLHC_2016-03-27-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 38, 
+                        "num_failed": 10
+                    }
+                }
+            ], 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "tests_archs": [
+                "slc6_amd64_gcc472"
+            ], 
+            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_6_2_X_SLHC_2016-03-27-0000/slc6_amd64_gcc472/-GenuineIntel/matrix-results", 
+            "inProgress": false, 
+            "release_name": "CMSSW_6_2_X_SLHC_2016-03-27-0000", 
+            "RVExceptions": null, 
+            "merged_prs": [], 
+            "hlt_tests": "found"
+        }, 
+        {
+            "fwlite": [], 
             "addons": [], 
             "comp_baseline_state": "ok", 
             "builds": [], 
             "valgrind": "not-found", 
-            "compared_tags": "CMSSW_6_2_X_SLHC_2016-03-20-0000-->CMSSW_6_2_X_SLHC", 
+            "compared_tags": "CMSSW_6_2_X_SLHC_2016-03-27-0000-->CMSSW_6_2_X_SLHC", 
             "dqm_tests": "inprogress", 
             "utests": [], 
             "cmsdistTags": {}, 
