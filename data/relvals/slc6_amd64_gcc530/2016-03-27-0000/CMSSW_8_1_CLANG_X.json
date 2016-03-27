@@ -585,6 +585,33 @@
     },
     {
         "exitcode": 0,
+        "id": "4.36",
+        "name": "WElSkim2011B+WElSkim2011B+HLTDSKIM+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 83
+            },
+            {
+                "errors": 14000,
+                "status": "PASSED",
+                "warnings": 449
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 7
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "4.4",
         "name": "RunMinBias2012A+RunMinBias2012A+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
         "steps": [
@@ -612,6 +639,33 @@
     },
     {
         "exitcode": 0,
+        "id": "4.41",
+        "name": "RunTau2012A+RunTau2012A+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 40
+            },
+            {
+                "errors": 304,
+                "status": "PASSED",
+                "warnings": 593
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 7
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "4.42",
         "name": "RunMET2012A+RunMET2012A+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
         "steps": [
@@ -629,6 +683,33 @@
                 "errors": 304,
                 "status": "PASSED",
                 "warnings": 353
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 7
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4.43",
+        "name": "RunMu2012A+RunMu2012A+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 65
+            },
+            {
+                "errors": 304,
+                "status": "PASSED",
+                "warnings": 331
             },
             {
                 "errors": 1,
@@ -2160,6 +2241,33 @@
     },
     {
         "exitcode": 0,
+        "id": "37.0",
+        "name": "LM1_sfts+LM1_sftsINPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 20
+            },
+            {
+                "errors": 200,
+                "status": "PASSED",
+                "warnings": 422
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 9
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "38.0",
         "name": "QCD_FlatPt_15_3000HS+QCD_FlatPt_15_3000HSINPUT+DIGI+RECO+HARVEST",
         "steps": [
@@ -2407,6 +2515,28 @@
     },
     {
         "exitcode": 0,
+        "id": "109.0",
+        "name": "H200ZZ4L+H200ZZ4L+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 69
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 37
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 63
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "110.0",
         "name": "SingleTauPt50Pythia+SingleTauPt50Pythia+DIGI+RECO",
         "steps": [
@@ -2556,6 +2686,28 @@
                 "errors": 20,
                 "status": "PASSED",
                 "warnings": 55
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "117.0",
+        "name": "QCD_Pt_120_170+QCD_Pt_120_170+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 73
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 40
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 285
             }
         ]
     },
