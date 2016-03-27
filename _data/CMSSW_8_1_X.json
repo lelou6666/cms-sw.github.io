@@ -5544,7 +5544,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/sat/8.1-sat-11/CMSSW_8_1_X_2016-03-26-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 883, 
+                        "num_passed": 914, 
                         "num_failed": 0
                     }
                 }, 
@@ -5690,6 +5690,14 @@
                     }
                 }, 
                 {
+                    "arch": "fc22_ppc64le_gcc530", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/fc22_ppc64le_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-03-27-0000/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "28"
+                    }
+                }, 
+                {
                     "arch": "slc7_amd64_gcc530", 
                     "passed": "failed", 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-03-27-0000/unitTests-summary.log", 
@@ -5704,12 +5712,6 @@
                     "details": {
                         "num_fails": "1"
                     }
-                }, 
-                {
-                    "arch": "fc22_ppc64le_gcc530", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/fc22_ppc64le_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-03-27-0000/new/logAnalysis.pkl']", 
-                    "details": {}
                 }
             ], 
             "dqm_tests": "found", 
@@ -5720,7 +5722,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-03-27-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 277, 
+                        "num_passed": 284, 
                         "num_failed": 0
                     }
                 }, 
@@ -5754,8 +5756,8 @@
             "tests_archs": [
                 "slc7_aarch64_gcc530", 
                 "slc6_amd64_gcc493", 
-                "fc22_ppc64le_gcc530", 
-                "slc7_amd64_gcc530"
+                "slc7_amd64_gcc530", 
+                "fc22_ppc64le_gcc530"
             ], 
             "RVExceptions": null, 
             "merged_prs": [], 
