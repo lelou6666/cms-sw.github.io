@@ -1,6 +1,28 @@
 [
     {
         "exitcode": 0,
+        "id": "1.0",
+        "name": "ProdMinBias+ProdMinBias+DIGIPROD1+RECOPROD1",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 14
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 6
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 8
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "2.0",
         "name": "ProdTTbar+ProdTTbar+DIGIPROD1+RECOPROD1",
         "steps": [
@@ -1130,6 +1152,38 @@
     },
     {
         "exitcode": 0,
+        "id": "8.0",
+        "name": "BeamHalo+BeamHaloINPUT+DIGICOS+RECOCOS+ALCABH+HARVESTCOS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 219
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 3
+            },
+            {
+                "errors": 5,
+                "status": "PASSED",
+                "warnings": 12
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "9.0",
         "name": "Higgs200ChargedTaus+Higgs200ChargedTausINPUT+DIGI+RECO+HARVEST",
         "steps": [
@@ -2097,6 +2151,28 @@
     },
     {
         "exitcode": 0,
+        "id": "111.0",
+        "name": "JpsiMM_Pt_20_inf+JpsiMM_Pt_20_inf+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 5
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 6
+            },
+            {
+                "errors": 10,
+                "status": "PASSED",
+                "warnings": 17
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "112.0",
         "name": "QCD_Pt_15_20+QCD_Pt_15_20+DIGI+RECO",
         "steps": [
@@ -2312,6 +2388,72 @@
                 "errors": 20,
                 "status": "PASSED",
                 "warnings": 32
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "126.0",
+        "name": "SingleElectronFlatPt5To100+SingleElectronFlatPt5To100+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 4
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 3
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 21
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "127.0",
+        "name": "SingleGammaFlatPt10To100+SingleGammaFlatPt10To100+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 7
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 2
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 18
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "131.0",
+        "name": "SinglePiPt100+SinglePiPt100+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 6
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 7
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 19
             }
         ]
     },
@@ -3624,6 +3766,23 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 10
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "144.6",
+        "name": "MinimumBias2010A+MinimumBias2010A+RECOSKIMALCAR1",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 400,
+                "status": "PASSED",
+                "warnings": 78
             }
         ]
     },
@@ -5394,6 +5553,28 @@
     },
     {
         "exitcode": 0,
+        "id": "4001.0",
+        "name": "TTbar+TTbarINPUT+DIGIPU1+RECOPUDBG",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 2
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 61
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "4002.0",
         "name": "ZEE+ZEEINPUT+DIGI+RECO",
         "steps": [
@@ -5455,6 +5636,28 @@
                 "errors": 20,
                 "status": "PASSED",
                 "warnings": 58
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4008.0",
+        "name": "QCD_Pt_80_170_BCtoE_8TeV+QCD_Pt_80_170_BCtoE_8TeV+DIGIPU1+RECOPUDBG",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 8
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 8
             }
         ]
     },
