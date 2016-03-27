@@ -1507,6 +1507,33 @@
     },
     {
         "exitcode": 0,
+        "id": "4.55",
+        "name": "RunJet2012B+RunJet2012B+HLTD+RECODreHLT+HARVESTDreHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 42
+            },
+            {
+                "errors": 11,
+                "status": "PASSED",
+                "warnings": 546
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 7
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "4.56",
         "name": "ZMuSkim2012B+ZMuSkim2012B+HLTDSKIM+RECODreHLT+HARVESTDreHLT",
         "steps": [
@@ -7353,6 +7380,33 @@
                 "errors": 11,
                 "status": "PASSED",
                 "warnings": 243
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 7
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "50207.0",
+        "name": "NuGun_UP15+NuGun_UP15INPUT+DIGIUP15_PU50+RECOUP15_PU50+HARVESTUP15_PU50",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 420
+            },
+            {
+                "errors": 11,
+                "status": "PASSED",
+                "warnings": 251
             },
             {
                 "errors": 0,
