@@ -2353,6 +2353,28 @@
     },
     {
         "exitcode": 0,
+        "id": "112.0",
+        "name": "QCD_Pt_15_20+QCD_Pt_15_20+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 42
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 57
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 679
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "116.0",
         "name": "QCD_Pt_80_120+QCD_Pt_80_120_2HS+DIGI+RECO",
         "steps": [
@@ -2414,6 +2436,28 @@
                 "errors": 20,
                 "status": "PASSED",
                 "warnings": 568
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "119.0",
+        "name": "ZTT+ZTTHS+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 64
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 85
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 1040
             }
         ]
     },
@@ -4433,6 +4477,28 @@
     },
     {
         "exitcode": 0,
+        "id": "517.0",
+        "name": "VHToHtt_NLO_Pow_13TeV_py8_taupinu+VHToH_Pow_LHE_13TeV+Hadronizer_TuneCUETP8M1_13TeV_Httpinu_powhegEmissionVeto_pythia8+HARVESTGEN2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 3
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 78
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "518.0",
         "name": "DYTollJets_LO_Mad_13TeV_py8_taurhonu+DYToll01234Jets_5f_LO_MLM_Madgraph_LHE_13TeV+Hadronizer_TuneCUETP8M1_13TeV_MLM_5f_max4j_LHE_pythia8_taurhonu+HARVESTGEN2",
         "steps": [
@@ -6421,6 +6487,33 @@
                 "errors": 30,
                 "status": "PASSED",
                 "warnings": 462
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 7
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "10025.0",
+        "name": "ZEE_13+ZEE_13TeV_TuneCUETP8M1_2017_GenSimFullINPUT+DigiFull_2017+RecoFull_2017+HARVESTFull_2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 53
+            },
+            {
+                "errors": 30,
+                "status": "PASSED",
+                "warnings": 256
             },
             {
                 "errors": 0,
