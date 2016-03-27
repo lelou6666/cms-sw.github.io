@@ -4825,8 +4825,42 @@
     },
     {
         "exitcode": 0,
+        "id": "502.0",
+        "name": "QCD_Pt-30_TuneZ2star_13TeV_pythia6+QCD_Pt-30_TuneZ2star_13TeV_pythia6+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 28
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "503.0",
         "name": "MinBias_13TeV_pythia8+MinBias_13TeV_pythia8+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 31
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "504.0",
+        "name": "QCD_Pt-30_13TeV_pythia8+QCD_Pt-30_13TeV_pythia8+HARVESTGEN",
         "steps": [
             {
                 "errors": 0,
@@ -4983,6 +5017,23 @@
     },
     {
         "exitcode": 0,
+        "id": "513.0",
+        "name": "WJetsLNu_13TeV_madgraph-pythia8+WJetsLNu_13TeV_madgraph-pythia8+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 27
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "514.0",
         "name": "GGToH_13TeV_pythia8+GGToH_13TeV_pythia8+HARVESTGEN",
         "steps": [
@@ -5012,6 +5063,23 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 54
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "516.0",
+        "name": "WJetsLNutaupinu_13TeV_madgraph-pythia8+WJetsLNutaupinu_13TeV_madgraph-pythia8+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 31
             },
             {
                 "errors": 0,
@@ -5068,6 +5136,23 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 22
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "520.0",
+        "name": "GGToHtaurhonu_13TeV_pythia8+GGToHtaurhonu_13TeV_pythia8+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 19
             },
             {
                 "errors": 0,
@@ -5212,6 +5297,23 @@
     },
     {
         "exitcode": 0,
+        "id": "528.0",
+        "name": "WToLNutaurhonu_13TeV_pythia8-tauola+WToLNutaurhonu_13TeV_pythia8-tauola+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 22
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "529.0",
         "name": "DYTollJets_LO_Mad_13TeV_py8_Ta_taurhonu+DYToll01234Jets_5f_LO_MLM_Madgraph_LHE_13TeV+Hadronizer_TuneCUETP8M1_13TeV_MLM_5f_max4j_LHE_pythia8_Tauola_taurhonu+HARVESTGEN2",
         "steps": [
@@ -5302,6 +5404,40 @@
     },
     {
         "exitcode": 0,
+        "id": "541.0",
+        "name": "BuToKstarJPsiToMuMu_forSTEAM_13TeV_TuneCUETP8M1+BuToKstarJPsiToMuMu_forSTEAM_13TeV_TuneCUETP8M1+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 47
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "542.0",
+        "name": "Upsilon4swithBuToKstarJPsiToMuMu_forSTEAM_13TeV_TuneCUETP8M1+Upsilon4swithBuToKstarJPsiToMuMu_forSTEAM_13TeV_TuneCUETP8M1+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 28
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "543.0",
         "name": "Upsilon4sBaBarExample_BpBm_Dstarpipi_D0Kpi_nonres_forSTEAM_13TeV_TuneCUETP8M1+Upsilon4sBaBarExample_BpBm_Dstarpipi_D0Kpi_nonres_forSTEAM_13TeV_TuneCUETP8M1+HARVESTGEN",
         "steps": [
@@ -5309,6 +5445,40 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 8
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "544.0",
+        "name": "LambdaBToLambdaMuMuToPPiMuMu_forSTEAM_13TeV_TuneCUETP8M1+LambdaBToLambdaMuMuToPPiMuMu_forSTEAM_13TeV_TuneCUETP8M1+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 18
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "545.0",
+        "name": "BsToMuMu_forSTEAM_13TeV_TuneCUETP8M1+BsToMuMu_forSTEAM_13TeV_TuneCUETP8M1+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 5
             },
             {
                 "errors": 0,
