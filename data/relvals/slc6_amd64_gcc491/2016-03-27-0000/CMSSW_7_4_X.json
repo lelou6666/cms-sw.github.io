@@ -6177,6 +6177,33 @@
     },
     {
         "exitcode": 0,
+        "id": "50206.0",
+        "name": "ZMM_13+ZMM_13INPUT+DIGIUP15_PU50+RECOUP15_PU50+HARVESTUP15_PU50",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 420
+            },
+            {
+                "errors": 11,
+                "status": "PASSED",
+                "warnings": 243
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 7
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "50208.0",
         "name": "SMS-T1tttt_mGl-1500_mLSP-100_13+SMS-T1tttt_mGl-1500_mLSP-100_13INPUT+DIGIUP15_PU50+RECOUP15_PU50+HARVESTUP15_PU50",
         "steps": [
@@ -6260,6 +6287,33 @@
                 "errors": 11,
                 "status": "PASSED",
                 "warnings": 137
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250202.0",
+        "name": "TTbar_13+TTbar_13INPUT+DIGIPRMXUP15_PU25+RECOPRMXUP15_PU25+HARVESTUP15_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 792
+            },
+            {
+                "errors": 868,
+                "status": "PASSED",
+                "warnings": 6126
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 7
             }
         ]
     },
@@ -6439,6 +6493,33 @@
                 "errors": 584,
                 "status": "PASSED",
                 "warnings": 2698
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 7
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "500203.0",
+        "name": "H130GGgluonfusion_13+H130GGgluonfusion_13INPUT+DIGIPRMXUP15_PU50+RECOPRMXUP15_PU50+HARVESTUP15_PU50",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 793
+            },
+            {
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 1500
             },
             {
                 "errors": 0,
