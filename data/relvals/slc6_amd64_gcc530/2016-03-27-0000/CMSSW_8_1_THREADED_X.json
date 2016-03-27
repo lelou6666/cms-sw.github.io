@@ -2390,6 +2390,28 @@
     },
     {
         "exitcode": 0,
+        "id": "103.0",
+        "name": "InclusiveppMuX+InclusiveppMuX+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 28
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 6
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "105.0",
         "name": "MinBiasHcalNZS+MinBiasHS+DIGI+ALCANZS",
         "steps": [
@@ -2877,6 +2899,28 @@
                 "errors": 20,
                 "status": "PASSED",
                 "warnings": 587
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "126.0",
+        "name": "SingleElectronFlatPt5To100+SingleElectronFlatPt5To100+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 25
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 132
             }
         ]
     },
@@ -5475,6 +5519,28 @@
                 "errors": 11,
                 "status": "PASSED",
                 "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "1002.0",
+        "name": "RRD+RunMinBias2011A+RECODR1+COPYPASTE",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 516,
+                "status": "PASSED",
+                "warnings": 940
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 30
             }
         ]
     },
