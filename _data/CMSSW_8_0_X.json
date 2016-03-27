@@ -962,7 +962,7 @@
                     "author_login": "bendavid"
                 }
             ], 
-            "hlt_tests": "found"
+            "hlt_tests": "inprogress"
         }, 
         {
             "fwlite": [], 
@@ -1079,7 +1079,7 @@
                     }
                 }
             ], 
-            "dqm_tests": "found", 
+            "dqm_tests": "inprogress", 
             "igprof": "not-found", 
             "relvals": [
                 {

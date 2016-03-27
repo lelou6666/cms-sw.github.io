@@ -820,7 +820,7 @@
             ], 
             "valgrind": "not-found", 
             "compared_tags": "CMSSW_8_1_DEVEL_X_2016-03-17-1100-->CMSSW_8_1_DEVEL_X_2016-03-17-2300", 
-            "dqm_tests": "found", 
+            "dqm_tests": "inprogress", 
             "utests": [
                 {
                     "arch": "slc6_amd64_gcc493", 
@@ -1054,7 +1054,7 @@
             ], 
             "valgrind": "not-found", 
             "compared_tags": "CMSSW_8_1_DEVEL_X_2016-03-17-2300-->CMSSW_8_1_DEVEL_X_2016-03-18-1100", 
-            "dqm_tests": "found", 
+            "dqm_tests": "inprogress", 
             "utests": [
                 {
                     "arch": "slc6_amd64_gcc493", 
