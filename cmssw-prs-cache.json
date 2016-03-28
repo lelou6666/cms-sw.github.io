@@ -6628,6 +6628,13 @@
     "title": "relval matrix updates ", 
     "user_ref": "from-CMSSW_8_1_0_pre1_relval_fixJson_phase1_rebase"
   }, 
+  "13799": {
+    "author": "bsunanda", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "ad0cd180bac8ab9c66a6cd10f7dc1afc91a85f63", 
+    "title": "bsunanda:Phase2-hgx46 Update a test cfi file for testing finer segmentation of BH", 
+    "user_ref": "Phase2-hgx46"
+  }, 
   "13801": {
     "author": "mtosi", 
     "branch": "CMSSW_8_1_X", 

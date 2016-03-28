@@ -826,15 +826,6 @@
             "RVExceptions": null, 
             "merged_prs": [
                 {
-                    "hash": "8177566483f449470dd623c84bfdd56270d8bab0", 
-                    "title": "Fix consumes for alignment validations", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/13814", 
-                    "number": "13814", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "hroskes"
-                }, 
-                {
                     "hash": "8201e22c42a353f2058a6772924e5913f2388572", 
                     "title": "Update miniAOD AK8 userFloat content. Add PUPPI substructure. Remove CMSTT.", 
                     "url": "https://github.com/cms-sw/cmssw/pull/13793", 
@@ -842,15 +833,6 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "jdolen"
-                }, 
-                {
-                    "hash": "cb9ec7d9d92a805ec4325d3c0abdb5bb619b2f6b", 
-                    "title": "Introducing realistic phase-I simuation key", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/13821", 
-                    "number": "13821", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "mmusich"
                 }, 
                 {
                     "hash": "819c129457068a17ec30b059599544adc6b78c7f", 
@@ -862,6 +844,15 @@
                     "author_login": "hengne"
                 }, 
                 {
+                    "hash": "ad0cd180bac8ab9c66a6cd10f7dc1afc91a85f63", 
+                    "title": "bsunanda:Phase2-hgx46 Update a test cfi file for testing finer segmentation of BH", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/13799", 
+                    "number": "13799", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
                     "hash": "f50ec9cb339b4371a133a6ff955c8baee261d96f", 
                     "title": "Validation module for ME0 Detector (Phase2 Upgrade)", 
                     "url": "https://github.com/cms-sw/cmssw/pull/13347", 
@@ -869,6 +860,24 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "clacaputo"
+                }, 
+                {
+                    "hash": "cb9ec7d9d92a805ec4325d3c0abdb5bb619b2f6b", 
+                    "title": "Introducing realistic phase-I simuation key", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/13821", 
+                    "number": "13821", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mmusich"
+                }, 
+                {
+                    "hash": "8177566483f449470dd623c84bfdd56270d8bab0", 
+                    "title": "Fix consumes for alignment validations", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/13814", 
+                    "number": "13814", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "hroskes"
                 }
             ], 
             "fwlite": []
