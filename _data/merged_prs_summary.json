@@ -17131,7 +17131,7 @@
                 ], 
                 "RVExceptions": null, 
                 "merged_prs": [], 
-                "hlt_tests": "inprogress"
+                "hlt_tests": "found"
             }, 
             {
                 "fwlite": [], 
@@ -21906,9 +21906,54 @@
             {
                 "addons": [], 
                 "comp_baseline_state": "errors", 
+                "builds": [
+                    {
+                        "arch": "slc6_amd64_gcc530", 
+                        "passed": "error", 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1.DEVEL-sun-23/CMSSW_8_1_DEVEL_X_2016-03-27-2300/new/logAnalysis.pkl", 
+                        "details": {
+                            "compWarning": 15, 
+                            "linkError": 1, 
+                            "compError": 6, 
+                            "ignoreWarning": 275
+                        }
+                    }
+                ], 
+                "valgrind": "not-found", 
+                "compared_tags": "CMSSW_8_1_DEVEL_X_2016-03-27-1100-->CMSSW_8_1_DEVEL_X_2016-03-27-2300", 
+                "dqm_tests": "inprogress", 
+                "utests": [
+                    {
+                        "arch": "slc6_amd64_gcc530", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1.DEVEL-sun-23/CMSSW_8_1_DEVEL_X_2016-03-27-2300/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }
+                ], 
+                "cmsdistTags": {
+                    "slc6_amd64_gcc530": "ERR/CMSSW_8_1_DEVEL_X_2016-03-27-2300/slc6_amd64_gcc530"
+                }, 
+                "igprof": "not-found", 
+                "relvals": [], 
+                "static_checks": "not-found", 
+                "isIB": true, 
+                "hlt_tests": "not-found", 
+                "comp_baseline": "not-found", 
+                "inProgress": false, 
+                "release_name": "CMSSW_8_1_DEVEL_X_2016-03-27-2300", 
+                "tests_archs": [
+                    "slc6_amd64_gcc530"
+                ], 
+                "RVExceptions": null, 
+                "merged_prs": [], 
+                "fwlite": []
+            }, 
+            {
+                "addons": [], 
+                "comp_baseline_state": "errors", 
                 "builds": [], 
                 "valgrind": "not-found", 
-                "compared_tags": "CMSSW_8_1_DEVEL_X_2016-03-27-1100-->CMSSW_8_1_ROOT64_X", 
+                "compared_tags": "CMSSW_8_1_DEVEL_X_2016-03-27-2300-->CMSSW_8_1_ROOT64_X", 
                 "dqm_tests": "inprogress", 
                 "utests": [], 
                 "cmsdistTags": {}, 
@@ -32224,23 +32269,23 @@
                 "dqm_tests": "found", 
                 "relvals": [
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "slc7_aarch64_gcc530", 
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-03-27-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1161, 
-                            "num_failed": 13
+                            "num_passed": 1192, 
+                            "num_failed": 30
                         }
                     }, 
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "fc22_ppc64le_gcc530", 
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/fc22_ppc64le_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-03-27-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1150, 
-                            "num_failed": 7
+                            "num_passed": 1192, 
+                            "num_failed": 30
                         }
                     }, 
                     {
