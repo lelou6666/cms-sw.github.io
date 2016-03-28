@@ -4640,6 +4640,13 @@
     "title": "bsunanda:Run2-hcx68 Add xml files for BH (HGCal)", 
     "user_ref": "Run2-hcx68"
   }, 
+  "13347": {
+    "author": "clacaputo", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "f50ec9cb339b4371a133a6ff955c8baee261d96f", 
+    "title": "Validation module for ME0 Detector (Phase2 Upgrade)", 
+    "user_ref": "ME0_DQM_Validation_Porting_8XY_1package"
+  }, 
   "13348": {
     "author": "makortel", 
     "branch": "CMSSW_8_1_X", 
