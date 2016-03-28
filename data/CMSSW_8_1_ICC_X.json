@@ -2258,9 +2258,53 @@
         {
             "addons": [], 
             "comp_baseline_state": "errors", 
+            "builds": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "error", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1.ICC-sun-23/CMSSW_8_1_ICC_X_2016-03-27-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "miscError": 93, 
+                        "compError": 43, 
+                        "linkError": 1759
+                    }
+                }
+            ], 
+            "valgrind": "not-found", 
+            "compared_tags": "CMSSW_8_1_ICC_X_2016-03-27-1100-->CMSSW_8_1_ICC_X_2016-03-27-2300", 
+            "dqm_tests": "inprogress", 
+            "utests": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1.ICC-sun-23/CMSSW_8_1_ICC_X_2016-03-27-2300/new/logAnalysis.pkl']", 
+                    "details": {}
+                }
+            ], 
+            "cmsdistTags": {
+                "slc6_amd64_gcc530": "ERR/CMSSW_8_1_ICC_X_2016-03-27-2300/slc6_amd64_gcc530"
+            }, 
+            "igprof": "not-found", 
+            "relvals": [], 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "hlt_tests": "not-found", 
+            "comp_baseline": "not-found", 
+            "inProgress": false, 
+            "release_name": "CMSSW_8_1_ICC_X_2016-03-27-2300", 
+            "tests_archs": [
+                "slc6_amd64_gcc530"
+            ], 
+            "RVExceptions": null, 
+            "merged_prs": [], 
+            "fwlite": []
+        }, 
+        {
+            "addons": [], 
+            "comp_baseline_state": "errors", 
             "builds": [], 
             "valgrind": "not-found", 
-            "compared_tags": "CMSSW_8_1_ICC_X_2016-03-27-1100-->CMSSW_8_1_X", 
+            "compared_tags": "CMSSW_8_1_ICC_X_2016-03-27-2300-->CMSSW_8_1_X", 
             "dqm_tests": "inprogress", 
             "utests": [], 
             "cmsdistTags": {}, 
