@@ -6670,6 +6670,13 @@
     "title": "Fix consumes for alignment validations", 
     "user_ref": "fix-consumes-alignment-80X"
   }, 
+  "13820": {
+    "author": "wmtan", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "c0684d042f8224d3638d745026ea7a4e56cba796", 
+    "title": "Use unique_ptr, not auto_ptr", 
+    "user_ref": "UseUniquePtr"
+  }, 
   "13821": {
     "author": "mmusich", 
     "branch": "CMSSW_8_1_X", 

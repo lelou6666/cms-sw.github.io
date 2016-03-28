@@ -978,6 +978,15 @@
                     "author_login": "mmusich"
                 }, 
                 {
+                    "hash": "c0684d042f8224d3638d745026ea7a4e56cba796", 
+                    "title": "Use unique_ptr, not auto_ptr", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/13820", 
+                    "number": "13820", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "wmtan"
+                }, 
+                {
                     "hash": "8177566483f449470dd623c84bfdd56270d8bab0", 
                     "title": "Fix consumes for alignment validations", 
                     "url": "https://github.com/cms-sw/cmssw/pull/13814", 
