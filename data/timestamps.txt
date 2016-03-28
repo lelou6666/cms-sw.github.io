@@ -15,7 +15,6 @@
 201603271447.13 data/relvals/slc6_amd64_gcc493/2016-03-09-2300/CMSSW_8_1_THREADED_X.json
 201603271447.14 data/relvals/slc6_amd64_gcc493/2016-03-09-2300/CMSSW_8_1_ICC_X.json
 201603271447.15 data/relvals/slc6_amd64_gcc493/2016-03-09-2300/CMSSW_8_1_CLANG_X.json
-201603170825.53 data/relvals/slc6_amd64_gcc493/2016-03-16-2300/CMSSW_8_1_CLANG_X.json
 201603240132.46 data/relvals/slc6_amd64_gcc493/2016-03-23-1100/CMSSW_8_0_X.json
 201603271447.16 data/relvals/slc6_amd64_gcc493/2016-03-09-1100/CMSSW_8_1_ICC_X.json
 201603271447.17 data/relvals/slc6_amd64_gcc493/2016-03-09-1100/CMSSW_8_1_CLANG_X.json
@@ -24,7 +23,6 @@
 201603271447.18 data/relvals/slc6_amd64_gcc493/2016-03-09-2300/CMSSW_8_1_X.json
 201603271447.19 data/relvals/slc6_amd64_gcc493/2016-03-09-1100/CMSSW_8_1_X.json
 201603231729.33 data/relvals/slc6_amd64_gcc493/2016-03-23-1100/CMSSW_8_1_X.json
-201603170908.35 data/relvals/slc6_amd64_gcc493/2016-03-16-2300/CMSSW_8_1_DEVEL_X.json
 201603271447.20 data/relvals/slc6_amd64_gcc493/2016-03-09-2300/CMSSW_8_1_DEVEL_X.json
 201603271447.21 data/relvals/slc6_amd64_gcc493/2016-03-06-2300/CMSSW_8_1_CLANG_X.json
 201603131452.42 data/relvals/slc6_amd64_gcc493/2016-03-13-0000/CMSSW_8_1_CLANG_X.json
@@ -105,7 +103,6 @@
 201603142137.46 data/relvals/slc6_amd64_gcc493/2016-03-14-1100/CMSSW_8_1_X.json
 201603142236.26 data/relvals/slc6_amd64_gcc493/2016-03-14-1100/CMSSW_8_1_CLANG_X.json
 201603271447.38 data/relvals/slc6_amd64_gcc493/2016-03-07-1100/CMSSW_8_1_CLANG_X.json
-201603212357.21 data/relvals/slc6_amd64_gcc493/2016-03-21-1100/CMSSW_8_1_CLANG_X.json
 201603271447.37 data/relvals/slc6_amd64_gcc493/2016-03-07-2300/CMSSW_8_1_DEVEL_X.json
 201603221116.34 data/relvals/slc6_amd64_gcc493/2016-03-21-2300/CMSSW_8_1_DEVEL_X.json
 201603271447.38 data/relvals/slc6_amd64_gcc493/2016-03-07-2300/CMSSW_8_1_CLANG_X.json
@@ -148,7 +145,6 @@
 201603232233.15 data/relvals/slc6_amd64_gcc530/2016-03-23-1100/CMSSW_8_1_ICC_X.json
 201603240132.47 data/relvals/slc6_amd64_gcc530/2016-03-23-1100/CMSSW_8_1_CLANG_X.json
 201603250027.02 data/relvals/slc6_amd64_gcc530/2016-03-23-2300/CMSSW_8_1_X.json
-201603170655.17 data/relvals/slc6_amd64_gcc530/2016-03-16-2300/CMSSW_8_1_X.json
 201603271447.42 data/relvals/slc6_amd64_gcc530/2016-03-09-2300/CMSSW_8_1_X.json
 201603240254.54 data/relvals/slc6_amd64_gcc530/2016-03-23-1100/CMSSW_8_1_X.json
 201603161839.10 data/relvals/slc6_amd64_gcc530/2016-03-16-1100/CMSSW_8_1_X.json
@@ -231,7 +227,6 @@
 201603240754.50 data/relvals/slc7_aarch64_gcc530/2016-03-23-1100/CMSSW_8_1_X.json
 201603150309.10 data/relvals/slc7_aarch64_gcc530/2016-03-13-1100/CMSSW_8_1_X.json
 201603271447.47 data/relvals/slc7_aarch64_gcc530/2016-03-06-1100/CMSSW_8_1_X.json
-201603212357.21 data/relvals/slc7_aarch64_gcc530/2016-03-20-1100/CMSSW_8_1_X.json
 201603271447.48 data/relvals/slc7_aarch64_gcc530/2016-03-06-2300/CMSSW_8_1_X.json
 201603271447.48 data/relvals/slc7_aarch64_gcc530/2016-03-06-0000/CMSSW_8_1_X.json
 201603280757.00 data/relvals/slc7_aarch64_gcc530/2016-03-27-0000/CMSSW_8_1_X.json
@@ -327,7 +322,6 @@
 201603271434.54 data/inputs/slc6_amd64_gcc493/CMSSW_8_1_THREADED_X/2016-03-09-2300.csv
 201603271434.06 data/inputs/slc6_amd64_gcc493/CMSSW_8_1_ICC_X/2016-03-09-2300.csv
 201603271435.42 data/inputs/slc6_amd64_gcc493/CMSSW_8_1_CLANG_X/2016-03-09-2300.csv
-201603170827.23 data/inputs/slc6_amd64_gcc493/CMSSW_8_1_CLANG_X/2016-03-16-2300.csv
 201603240133.47 data/inputs/slc6_amd64_gcc493/CMSSW_8_0_X/2016-03-23-1100.csv
 201603271434.08 data/inputs/slc6_amd64_gcc493/CMSSW_8_1_ICC_X/2016-03-09-1100.csv
 201603271435.41 data/inputs/slc6_amd64_gcc493/CMSSW_8_1_CLANG_X/2016-03-09-1100.csv
@@ -336,7 +330,6 @@
 201603271435.44 data/inputs/slc6_amd64_gcc493/CMSSW_8_1_X/2016-03-09-2300.csv
 201603271435.44 data/inputs/slc6_amd64_gcc493/CMSSW_8_1_X/2016-03-09-1100.csv
 201603231730.02 data/inputs/slc6_amd64_gcc493/CMSSW_8_1_X/2016-03-23-1100.csv
-201603170908.47 data/inputs/slc6_amd64_gcc493/CMSSW_8_1_DEVEL_X/2016-03-16-2300.csv
 201603271435.48 data/inputs/slc6_amd64_gcc493/CMSSW_8_1_DEVEL_X/2016-03-09-2300.csv
 201603271435.41 data/inputs/slc6_amd64_gcc493/CMSSW_8_1_CLANG_X/2016-03-06-2300.csv
 201603131452.52 data/inputs/slc6_amd64_gcc493/CMSSW_8_1_CLANG_X/2016-03-13-0000.csv
@@ -417,7 +410,6 @@
 201603142137.42 data/inputs/slc6_amd64_gcc493/CMSSW_8_1_X/2016-03-14-1100.csv
 201603142243.38 data/inputs/slc6_amd64_gcc493/CMSSW_8_1_CLANG_X/2016-03-14-1100.csv
 201603271440.42 data/inputs/slc6_amd64_gcc493/CMSSW_8_1_CLANG_X/2016-03-07-1100.csv
-201603212358.25 data/inputs/slc6_amd64_gcc493/CMSSW_8_1_CLANG_X/2016-03-21-1100.csv
 201603271440.23 data/inputs/slc6_amd64_gcc493/CMSSW_8_1_DEVEL_X/2016-03-07-2300.csv
 201603221117.48 data/inputs/slc6_amd64_gcc493/CMSSW_8_1_DEVEL_X/2016-03-21-2300.csv
 201603271440.20 data/inputs/slc6_amd64_gcc493/CMSSW_8_1_CLANG_X/2016-03-07-2300.csv
@@ -460,7 +452,6 @@
 201603232233.15 data/inputs/slc6_amd64_gcc530/CMSSW_8_1_ICC_X/2016-03-23-1100.csv
 201603240133.33 data/inputs/slc6_amd64_gcc530/CMSSW_8_1_CLANG_X/2016-03-23-1100.csv
 201603250037.41 data/inputs/slc6_amd64_gcc530/CMSSW_8_1_X/2016-03-23-2300.csv
-201603170656.24 data/inputs/slc6_amd64_gcc530/CMSSW_8_1_X/2016-03-16-2300.csv
 201603271442.27 data/inputs/slc6_amd64_gcc530/CMSSW_8_1_X/2016-03-09-2300.csv
 201603240255.09 data/inputs/slc6_amd64_gcc530/CMSSW_8_1_X/2016-03-23-1100.csv
 201603161839.30 data/inputs/slc6_amd64_gcc530/CMSSW_8_1_X/2016-03-16-1100.csv
@@ -543,7 +534,6 @@
 201603240755.14 data/inputs/slc7_aarch64_gcc530/CMSSW_8_1_X/2016-03-23-1100.csv
 201603150309.23 data/inputs/slc7_aarch64_gcc530/CMSSW_8_1_X/2016-03-13-1100.csv
 201603271444.24 data/inputs/slc7_aarch64_gcc530/CMSSW_8_1_X/2016-03-06-1100.csv
-201603212358.02 data/inputs/slc7_aarch64_gcc530/CMSSW_8_1_X/2016-03-20-1100.csv
 201603271444.20 data/inputs/slc7_aarch64_gcc530/CMSSW_8_1_X/2016-03-06-2300.csv
 201603271444.37 data/inputs/slc7_aarch64_gcc530/CMSSW_8_1_X/2016-03-06-0000.csv
 201603280757.24 data/inputs/slc7_aarch64_gcc530/CMSSW_8_1_X/2016-03-27-0000.csv
@@ -638,7 +628,6 @@
 201603271447.52 data/unitTests/slc6_amd64_gcc493/2016-03-09-2300/CMSSW_8_1_THREADED_X.json
 201603271447.53 data/unitTests/slc6_amd64_gcc493/2016-03-09-2300/CMSSW_8_1_ICC_X.json
 201603271447.53 data/unitTests/slc6_amd64_gcc493/2016-03-09-2300/CMSSW_8_1_CLANG_X.json
-201603170451.08 data/unitTests/slc6_amd64_gcc493/2016-03-16-2300/CMSSW_8_1_CLANG_X.json
 201603232032.04 data/unitTests/slc6_amd64_gcc493/2016-03-23-1100/CMSSW_8_0_X.json
 201603271447.53 data/unitTests/slc6_amd64_gcc493/2016-03-09-1100/CMSSW_8_1_ICC_X.json
 201603271447.53 data/unitTests/slc6_amd64_gcc493/2016-03-09-1100/CMSSW_8_1_CLANG_X.json
@@ -647,7 +636,6 @@
 201603271447.53 data/unitTests/slc6_amd64_gcc493/2016-03-09-2300/CMSSW_8_1_X.json
 201603271447.53 data/unitTests/slc6_amd64_gcc493/2016-03-09-1100/CMSSW_8_1_X.json
 201603231534.55 data/unitTests/slc6_amd64_gcc493/2016-03-23-1100/CMSSW_8_1_X.json
-201603170605.19 data/unitTests/slc6_amd64_gcc493/2016-03-16-2300/CMSSW_8_1_DEVEL_X.json
 201603271447.53 data/unitTests/slc6_amd64_gcc493/2016-03-09-2300/CMSSW_8_1_DEVEL_X.json
 201603271447.54 data/unitTests/slc6_amd64_gcc493/2016-03-06-2300/CMSSW_8_1_CLANG_X.json
 201603131104.30 data/unitTests/slc6_amd64_gcc493/2016-03-13-0000/CMSSW_8_1_CLANG_X.json
@@ -728,7 +716,6 @@
 201603141712.03 data/unitTests/slc6_amd64_gcc493/2016-03-14-1100/CMSSW_8_1_X.json
 201603141852.52 data/unitTests/slc6_amd64_gcc493/2016-03-14-1100/CMSSW_8_1_CLANG_X.json
 201603271447.56 data/unitTests/slc6_amd64_gcc493/2016-03-07-1100/CMSSW_8_1_CLANG_X.json
-201603212021.26 data/unitTests/slc6_amd64_gcc493/2016-03-21-1100/CMSSW_8_1_CLANG_X.json
 201603271447.56 data/unitTests/slc6_amd64_gcc493/2016-03-07-2300/CMSSW_8_1_DEVEL_X.json
 201603220835.23 data/unitTests/slc6_amd64_gcc493/2016-03-21-2300/CMSSW_8_1_DEVEL_X.json
 201603271447.56 data/unitTests/slc6_amd64_gcc493/2016-03-07-2300/CMSSW_8_1_CLANG_X.json
@@ -771,7 +758,6 @@
 201603232226.41 data/unitTests/slc6_amd64_gcc530/2016-03-23-1100/CMSSW_8_1_ICC_X.json
 201603231810.31 data/unitTests/slc6_amd64_gcc530/2016-03-23-1100/CMSSW_8_1_CLANG_X.json
 201603241954.52 data/unitTests/slc6_amd64_gcc530/2016-03-23-2300/CMSSW_8_1_X.json
-201603170504.47 data/unitTests/slc6_amd64_gcc530/2016-03-16-2300/CMSSW_8_1_X.json
 201603271447.57 data/unitTests/slc6_amd64_gcc530/2016-03-09-2300/CMSSW_8_1_X.json
 201603232323.50 data/unitTests/slc6_amd64_gcc530/2016-03-23-1100/CMSSW_8_1_X.json
 201603161504.39 data/unitTests/slc6_amd64_gcc530/2016-03-16-1100/CMSSW_8_1_X.json
@@ -852,7 +838,6 @@
 201603231817.58 data/unitTests/slc7_aarch64_gcc530/2016-03-23-1100/CMSSW_8_1_X.json
 201603141352.44 data/unitTests/slc7_aarch64_gcc530/2016-03-13-1100/CMSSW_8_1_X.json
 201603271447.58 data/unitTests/slc7_aarch64_gcc530/2016-03-06-1100/CMSSW_8_1_X.json
-201603211037.10 data/unitTests/slc7_aarch64_gcc530/2016-03-20-1100/CMSSW_8_1_X.json
 201603271447.58 data/unitTests/slc7_aarch64_gcc530/2016-03-06-2300/CMSSW_8_1_X.json
 201603271447.58 data/unitTests/slc7_aarch64_gcc530/2016-03-06-0000/CMSSW_8_1_X.json
 201603271835.15 data/unitTests/slc7_aarch64_gcc530/2016-03-27-0000/CMSSW_8_1_X.json
@@ -948,7 +933,6 @@
 201603271448.32 data/jobreports/slc6_amd64_gcc493/CMSSW_8_1_THREADED_X/2016-03-09-2300.csv
 201603271448.05 data/jobreports/slc6_amd64_gcc493/CMSSW_8_1_ICC_X/2016-03-09-2300.csv
 201603271449.21 data/jobreports/slc6_amd64_gcc493/CMSSW_8_1_CLANG_X/2016-03-09-2300.csv
-201603170826.22 data/jobreports/slc6_amd64_gcc493/CMSSW_8_1_CLANG_X/2016-03-16-2300.csv
 201603240133.47 data/jobreports/slc6_amd64_gcc493/CMSSW_8_0_X/2016-03-23-1100.csv
 201603271448.06 data/jobreports/slc6_amd64_gcc493/CMSSW_8_1_ICC_X/2016-03-09-1100.csv
 201603271449.23 data/jobreports/slc6_amd64_gcc493/CMSSW_8_1_CLANG_X/2016-03-09-1100.csv
@@ -957,7 +941,6 @@
 201603271449.28 data/jobreports/slc6_amd64_gcc493/CMSSW_8_1_X/2016-03-09-2300.csv
 201603271449.33 data/jobreports/slc6_amd64_gcc493/CMSSW_8_1_X/2016-03-09-1100.csv
 201603231730.02 data/jobreports/slc6_amd64_gcc493/CMSSW_8_1_X/2016-03-23-1100.csv
-201603170911.40 data/jobreports/slc6_amd64_gcc493/CMSSW_8_1_DEVEL_X/2016-03-16-2300.csv
 201603271449.48 data/jobreports/slc6_amd64_gcc493/CMSSW_8_1_DEVEL_X/2016-03-09-2300.csv
 201603271449.51 data/jobreports/slc6_amd64_gcc493/CMSSW_8_1_CLANG_X/2016-03-06-2300.csv
 201603131452.52 data/jobreports/slc6_amd64_gcc493/CMSSW_8_1_CLANG_X/2016-03-13-0000.csv
@@ -1038,7 +1021,6 @@
 201603142141.03 data/jobreports/slc6_amd64_gcc493/CMSSW_8_1_X/2016-03-14-1100.csv
 201603142243.23 data/jobreports/slc6_amd64_gcc493/CMSSW_8_1_CLANG_X/2016-03-14-1100.csv
 201603271454.14 data/jobreports/slc6_amd64_gcc493/CMSSW_8_1_CLANG_X/2016-03-07-1100.csv
-201603212358.25 data/jobreports/slc6_amd64_gcc493/CMSSW_8_1_CLANG_X/2016-03-21-1100.csv
 201603271454.00 data/jobreports/slc6_amd64_gcc493/CMSSW_8_1_DEVEL_X/2016-03-07-2300.csv
 201603221117.48 data/jobreports/slc6_amd64_gcc493/CMSSW_8_1_DEVEL_X/2016-03-21-2300.csv
 201603271453.56 data/jobreports/slc6_amd64_gcc493/CMSSW_8_1_CLANG_X/2016-03-07-2300.csv
@@ -1081,7 +1063,6 @@
 201603232233.15 data/jobreports/slc6_amd64_gcc530/CMSSW_8_1_ICC_X/2016-03-23-1100.csv
 201603240133.58 data/jobreports/slc6_amd64_gcc530/CMSSW_8_1_CLANG_X/2016-03-23-1100.csv
 201603250037.41 data/jobreports/slc6_amd64_gcc530/CMSSW_8_1_X/2016-03-23-2300.csv
-201603170655.47 data/jobreports/slc6_amd64_gcc530/CMSSW_8_1_X/2016-03-16-2300.csv
 201603271456.02 data/jobreports/slc6_amd64_gcc530/CMSSW_8_1_X/2016-03-09-2300.csv
 201603240255.07 data/jobreports/slc6_amd64_gcc530/CMSSW_8_1_X/2016-03-23-1100.csv
 201603161839.30 data/jobreports/slc6_amd64_gcc530/CMSSW_8_1_X/2016-03-16-1100.csv
@@ -1164,7 +1145,6 @@
 201603240755.12 data/jobreports/slc7_aarch64_gcc530/CMSSW_8_1_X/2016-03-23-1100.csv
 201603150309.23 data/jobreports/slc7_aarch64_gcc530/CMSSW_8_1_X/2016-03-13-1100.csv
 201603271457.44 data/jobreports/slc7_aarch64_gcc530/CMSSW_8_1_X/2016-03-06-1100.csv
-201603212358.03 data/jobreports/slc7_aarch64_gcc530/CMSSW_8_1_X/2016-03-20-1100.csv
 201603271457.47 data/jobreports/slc7_aarch64_gcc530/CMSSW_8_1_X/2016-03-06-2300.csv
 201603271458.03 data/jobreports/slc7_aarch64_gcc530/CMSSW_8_1_X/2016-03-06-0000.csv
 201603280757.24 data/jobreports/slc7_aarch64_gcc530/CMSSW_8_1_X/2016-03-27-0000.csv
@@ -1260,7 +1240,6 @@
 201603271503.50 data/commands/slc6_amd64_gcc493/2016-03-09-2300/CMSSW_8_1_THREADED_X.json
 201603271502.29 data/commands/slc6_amd64_gcc493/2016-03-09-2300/CMSSW_8_1_ICC_X.json
 201603271503.12 data/commands/slc6_amd64_gcc493/2016-03-09-2300/CMSSW_8_1_CLANG_X.json
-201603170827.10 data/commands/slc6_amd64_gcc493/2016-03-16-2300/CMSSW_8_1_CLANG_X.json
 201603240135.15 data/commands/slc6_amd64_gcc493/2016-03-23-1100/CMSSW_8_0_X.json
 201603271502.29 data/commands/slc6_amd64_gcc493/2016-03-09-1100/CMSSW_8_1_ICC_X.json
 201603271503.12 data/commands/slc6_amd64_gcc493/2016-03-09-1100/CMSSW_8_1_CLANG_X.json
@@ -1269,7 +1248,6 @@
 201603271503.12 data/commands/slc6_amd64_gcc493/2016-03-09-2300/CMSSW_8_1_X.json
 201603271503.12 data/commands/slc6_amd64_gcc493/2016-03-09-1100/CMSSW_8_1_X.json
 201603231730.35 data/commands/slc6_amd64_gcc493/2016-03-23-1100/CMSSW_8_1_X.json
-201603170911.43 data/commands/slc6_amd64_gcc493/2016-03-16-2300/CMSSW_8_1_DEVEL_X.json
 201603271503.12 data/commands/slc6_amd64_gcc493/2016-03-09-2300/CMSSW_8_1_DEVEL_X.json
 201603271503.44 data/commands/slc6_amd64_gcc493/2016-03-06-2300/CMSSW_8_1_CLANG_X.json
 201603131452.52 data/commands/slc6_amd64_gcc493/2016-03-13-0000/CMSSW_8_1_CLANG_X.json
@@ -1350,7 +1328,6 @@
 201603142145.24 data/commands/slc6_amd64_gcc493/2016-03-14-1100/CMSSW_8_1_X.json
 201603142243.25 data/commands/slc6_amd64_gcc493/2016-03-14-1100/CMSSW_8_1_CLANG_X.json
 201603271508.49 data/commands/slc6_amd64_gcc493/2016-03-07-1100/CMSSW_8_1_CLANG_X.json
-201603220000.00 data/commands/slc6_amd64_gcc493/2016-03-21-1100/CMSSW_8_1_CLANG_X.json
 201603271508.37 data/commands/slc6_amd64_gcc493/2016-03-07-2300/CMSSW_8_1_DEVEL_X.json
 201603221119.15 data/commands/slc6_amd64_gcc493/2016-03-21-2300/CMSSW_8_1_DEVEL_X.json
 201603271508.43 data/commands/slc6_amd64_gcc493/2016-03-07-2300/CMSSW_8_1_CLANG_X.json
@@ -1393,7 +1370,6 @@
 201603232241.28 data/commands/slc6_amd64_gcc530/2016-03-23-1100/CMSSW_8_1_ICC_X.json
 201603240135.15 data/commands/slc6_amd64_gcc530/2016-03-23-1100/CMSSW_8_1_CLANG_X.json
 201603250037.39 data/commands/slc6_amd64_gcc530/2016-03-23-2300/CMSSW_8_1_X.json
-201603170656.10 data/commands/slc6_amd64_gcc530/2016-03-16-2300/CMSSW_8_1_X.json
 201603271510.48 data/commands/slc6_amd64_gcc530/2016-03-09-2300/CMSSW_8_1_X.json
 201603240255.50 data/commands/slc6_amd64_gcc530/2016-03-23-1100/CMSSW_8_1_X.json
 201603161839.15 data/commands/slc6_amd64_gcc530/2016-03-16-1100/CMSSW_8_1_X.json
@@ -1476,7 +1452,6 @@
 201603240755.11 data/commands/slc7_aarch64_gcc530/2016-03-23-1100/CMSSW_8_1_X.json
 201603150309.19 data/commands/slc7_aarch64_gcc530/2016-03-13-1100/CMSSW_8_1_X.json
 201603271512.25 data/commands/slc7_aarch64_gcc530/2016-03-06-1100/CMSSW_8_1_X.json
-201603220000.00 data/commands/slc7_aarch64_gcc530/2016-03-20-1100/CMSSW_8_1_X.json
 201603271512.30 data/commands/slc7_aarch64_gcc530/2016-03-06-2300/CMSSW_8_1_X.json
 201603271512.31 data/commands/slc7_aarch64_gcc530/2016-03-06-0000/CMSSW_8_1_X.json
 201603280757.38 data/commands/slc7_aarch64_gcc530/2016-03-27-0000/CMSSW_8_1_X.json
