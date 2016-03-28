@@ -6614,6 +6614,20 @@
     "title": "Fix forgotten saveTags default switchover (81X)", 
     "user_ref": "saveTagsBis81X"
   }, 
+  "13793": {
+    "author": "jdolen", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "8201e22c42a353f2058a6772924e5913f2388572", 
+    "title": "Update miniAOD AK8 userFloat content. Add PUPPI substructure. Remove CMSTT.", 
+    "user_ref": "patch-1"
+  }, 
+  "13797": {
+    "author": "hengne", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "819c129457068a17ec30b059599544adc6b78c7f", 
+    "title": "relval matrix updates ", 
+    "user_ref": "from-CMSSW_8_1_0_pre1_relval_fixJson_phase1_rebase"
+  }, 
   "13801": {
     "author": "mtosi", 
     "branch": "CMSSW_8_1_X", 
@@ -6641,6 +6655,20 @@
     "hash": "241df34918b51fc94a8bf8cc28860488ef03fd1a", 
     "title": "Fix crash in CorrelationConditions uGT emulator", 
     "user_ref": "l1t-fixCorrlCond-EtSumVec-80x"
+  }, 
+  "13814": {
+    "author": "hroskes", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "8177566483f449470dd623c84bfdd56270d8bab0", 
+    "title": "Fix consumes for alignment validations", 
+    "user_ref": "fix-consumes-alignment-80X"
+  }, 
+  "13821": {
+    "author": "mmusich", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "cb9ec7d9d92a805ec4325d3c0abdb5bb619b2f6b", 
+    "title": "Introducing realistic phase-I simuation key", 
+    "user_ref": "GTs_81X_realisticPhaseI"
   }, 
   "13823": {
     "author": "lihux25", 
