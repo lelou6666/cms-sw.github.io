@@ -2248,13 +2248,13 @@
             "igprof": "not-found", 
             "relvals": [
                 {
-                    "done": false, 
+                    "done": true, 
                     "arch": "slc6_amd64_gcc530", 
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1.THREADED-sun-11/CMSSW_8_1_THREADED_X_2016-03-27-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1256, 
-                        "num_failed": 8
+                        "num_passed": 1262, 
+                        "num_failed": 10
                     }
                 }
             ], 
