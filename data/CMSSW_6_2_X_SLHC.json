@@ -3665,7 +3665,7 @@
             ], 
             "valgrind": "not-found", 
             "compared_tags": "CMSSW_6_2_X_SLHC_2016-03-27-0000-->CMSSW_6_2_X_SLHC_2016-03-28-2300", 
-            "dqm_tests": "inprogress", 
+            "dqm_tests": "found", 
             "utests": [
                 {
                     "arch": "slc6_amd64_gcc472", 
