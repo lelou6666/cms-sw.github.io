@@ -1124,7 +1124,7 @@
                     "details": {}
                 }
             ], 
-            "dqm_tests": "inprogress", 
+            "dqm_tests": "found", 
             "igprof": "not-found", 
             "relvals": [
                 {
