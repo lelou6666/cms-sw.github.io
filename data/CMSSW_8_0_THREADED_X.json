@@ -363,7 +363,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.0.THREADED-mon-23/CMSSW_8_0_THREADED_X_2016-03-28-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 99, 
+                        "num_passed": 256, 
                         "num_failed": 0
                     }
                 }
@@ -384,9 +384,61 @@
         {
             "addons": [], 
             "comp_baseline_state": "errors", 
+            "builds": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/tue/8.0.THREADED-tue-11/CMSSW_8_0_THREADED_X_2016-03-29-1100/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 1
+                    }
+                }
+            ], 
+            "valgrind": "not-found", 
+            "compared_tags": "CMSSW_8_0_THREADED_X_2016-03-28-2300-->CMSSW_8_0_THREADED_X_2016-03-29-1100", 
+            "dqm_tests": "inprogress", 
+            "utests": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/slc6_amd64_gcc530/www/tue/8.0.THREADED-tue-11/CMSSW_8_0_THREADED_X_2016-03-29-1100/new/logAnalysis.pkl']", 
+                    "details": {}
+                }
+            ], 
+            "cmsdistTags": {
+                "slc6_amd64_gcc530": "IB/CMSSW_8_0_THREADED_X_2016-03-28-2300/slc6_amd64_gcc530"
+            }, 
+            "igprof": "not-found", 
+            "relvals": [], 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "hlt_tests": "not-found", 
+            "comp_baseline": "not-found", 
+            "inProgress": false, 
+            "release_name": "CMSSW_8_0_THREADED_X_2016-03-29-1100", 
+            "tests_archs": [
+                "slc6_amd64_gcc530"
+            ], 
+            "RVExceptions": null, 
+            "merged_prs": [
+                {
+                    "hash": "6b776bf56d4ea100b587ca8e1154651ce3f3fced", 
+                    "title": "8x Fireworks: move clipping cone apex in 3D region view ", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/13850", 
+                    "number": "13850", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "alja"
+                }
+            ], 
+            "fwlite": []
+        }, 
+        {
+            "addons": [], 
+            "comp_baseline_state": "errors", 
             "builds": [], 
             "valgrind": "not-found", 
-            "compared_tags": "CMSSW_8_0_THREADED_X_2016-03-28-2300-->CMSSW_8_0_X", 
+            "compared_tags": "CMSSW_8_0_THREADED_X_2016-03-29-1100-->CMSSW_8_0_X", 
             "dqm_tests": "inprogress", 
             "utests": [], 
             "cmsdistTags": {}, 
@@ -400,17 +452,7 @@
             "release_name": "CMSSW_8_0_X", 
             "tests_archs": [], 
             "RVExceptions": null, 
-            "merged_prs": [
-                {
-                    "hash": "6b776bf56d4ea100b587ca8e1154651ce3f3fced", 
-                    "title": "8x Fireworks: move clipping cone apex in 3D region view ", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/13850", 
-                    "number": "13850", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "alja"
-                }
-            ], 
+            "merged_prs": [], 
             "fwlite": []
         }
     ]
