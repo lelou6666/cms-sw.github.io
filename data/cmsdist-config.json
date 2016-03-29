@@ -51,7 +51,7 @@
     "SCRAM_ARCH": "slc6_amd64_gcc493"
   },
   {
-    "CMSDIST_TAG": "IB/CMSSW_8_1_X/gcc530",
+    "CMSDIST_TAG": "IB/CMSSW_8_1_X/gcc530next",
     "PKGTOOLS_TAG": "V00-22-XX",
     "RELEASE_BRANCH": "CMSSW_8_1_ROOT64_X",
     "RELEASE_QUEUE": "CMSSW_8_1_DEVEL_X",
