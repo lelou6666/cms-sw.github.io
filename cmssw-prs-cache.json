@@ -6467,6 +6467,13 @@
     "title": "Bugfix in the BoostedDoubleSV tagger (80X)", 
     "user_ref": "BoostedDoubleSVBugfix_from-CMSSW_8_0_2"
   }, 
+  "13753": {
+    "author": "makortel", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "e4daef5a3d624d3ac2a9d9104d8bc2837493bfba", 
+    "title": "Quadruplet seeding by propagating triplet to 4th layer", 
+    "user_ref": "new_quadruplets_v4"
+  }, 
   "13755": {
     "author": "boudoul", 
     "branch": "CMSSW_8_1_X", 
@@ -6690,6 +6697,13 @@
     "hash": "b6c714fa2c38695de013876044b1cfbee98919ad", 
     "title": "Fix crash in HcalDumpConditions.cc ", 
     "user_ref": "fix_crash_hcal_db_dump"
+  }, 
+  "13850": {
+    "author": "alja", 
+    "branch": "CMSSW_8_0_X", 
+    "hash": "6b776bf56d4ea100b587ca8e1154651ce3f3fced", 
+    "title": "8x Fireworks: move clipping cone apex in 3D region view ", 
+    "user_ref": "clippAppexOffset-8x"
   }, 
   "1407": {
     "author": "ingabu", 

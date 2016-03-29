@@ -1071,7 +1071,17 @@
             "release_name": "CMSSW_8_0_X", 
             "tests_archs": [], 
             "RVExceptions": null, 
-            "merged_prs": [], 
+            "merged_prs": [
+                {
+                    "hash": "6b776bf56d4ea100b587ca8e1154651ce3f3fced", 
+                    "title": "8x Fireworks: move clipping cone apex in 3D region view ", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/13850", 
+                    "number": "13850", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "alja"
+                }
+            ], 
             "hlt_tests": "inprogress"
         }
     ]
