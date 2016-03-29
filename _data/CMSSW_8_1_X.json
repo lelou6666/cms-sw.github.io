@@ -2573,7 +2573,7 @@
             ], 
             "RVExceptions": null, 
             "merged_prs": [], 
-            "hlt_tests": "inprogress"
+            "hlt_tests": "found"
         }, 
         {
             "fwlite": [
@@ -2698,8 +2698,8 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/mon/8.1-mon-23/CMSSW_8_1_X_2016-03-28-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 804, 
-                        "num_failed": 6
+                        "num_passed": 895, 
+                        "num_failed": 7
                     }
                 }
             ], 
