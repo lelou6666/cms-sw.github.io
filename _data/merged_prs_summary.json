@@ -20568,7 +20568,7 @@
                     }
                 ], 
                 "compared_tags": "CMSSW_8_1_X_2016-03-27-2300-->CMSSW_8_1_X_2016-03-28-1100", 
-                "valgrind": "inprogress", 
+                "valgrind": "found", 
                 "utests": [
                     {
                         "arch": "slc6_amd64_gcc530", 
@@ -20587,8 +20587,8 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.1-mon-11/CMSSW_8_1_X_2016-03-28-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 926, 
-                            "num_failed": 6
+                            "num_passed": 1021, 
+                            "num_failed": 8
                         }
                     }
                 ], 
