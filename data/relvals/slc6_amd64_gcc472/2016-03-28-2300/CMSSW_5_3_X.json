@@ -30,6 +30,50 @@
     },
     {
         "exitcode": 23552,
+        "id": "4.67",
+        "name": "ZElSkim2012C+ZElSkim2012C+RECOSKIM+HARVESTD",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            }
+        ]
+    },
+    {
+        "exitcode": 23552,
+        "id": "4.68",
+        "name": "WElSkim2012C+WElSkim2012C+RECOSKIM+HARVESTD",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            }
+        ]
+    },
+    {
+        "exitcode": 23552,
         "id": "4.77",
         "name": "ZElSkim2012D+ZElSkim2012D+RECOSKIM+HARVESTD",
         "steps": [
@@ -282,6 +326,28 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "3.0",
+        "name": "ProdQCD_Pt_3000_3500+ProdQCD_Pt_3000_3500+DIGIPROD1+RECOPROD1",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 5
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 3
             }
         ]
     },
@@ -876,6 +942,33 @@
     },
     {
         "exitcode": 0,
+        "id": "4.53",
+        "name": "RunPhoton2012B+RunPhoton2012B+HLTD+RECODreHLT+HARVESTDreHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 64
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 2612
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "4.54",
         "name": "RunEl2012B+RunEl2012B+HLTD+RECODreHLT+HARVESTDreHLT",
         "steps": [
@@ -982,6 +1075,33 @@
     },
     {
         "exitcode": 0,
+        "id": "4.61",
+        "name": "RunMinBias2012C+RunMinBias2012C+HLTD+RECODreHLT+HARVESTDreHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 687
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "4.62",
         "name": "RunMu2012C+RunMu2012C+HLTD+RECODreHLT+HARVESTDreHLT",
         "steps": [
@@ -1053,6 +1173,33 @@
                 "errors": 1,
                 "status": "PASSED",
                 "warnings": 2096
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4.65",
+        "name": "RunJet2012C+RunJet2012C+HLTD+RECODreHLT+HARVESTDreHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 5297
             },
             {
                 "errors": 0,
@@ -1150,6 +1297,33 @@
                 "errors": 3121,
                 "status": "PASSED",
                 "warnings": 2975
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4.74",
+        "name": "RunEl2012D+RunEl2012D+HLTD+RECODreHLT+HARVESTDreHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 2509,
+                "status": "PASSED",
+                "warnings": 2128
             },
             {
                 "errors": 0,
@@ -1993,6 +2167,33 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 198
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "40.0",
+        "name": "HydjetQ_MinBias_2760GeV+HydjetQ_MinBias_2760GeVINPUT+DIGIHI+RECOHI+HARVESTHI",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -3102,6 +3303,102 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 198
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "300.0",
+        "name": "Pyquen_GammaJet_pt20_2760GeV+HydjetQ_MinBias_2760GeVINPUT+Pyquen_GammaJet_pt20_2760GeV+DIGIHIMIXSt3+RECOHIMIXSt4+HARVESTHI",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 181
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 181
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "301.0",
+        "name": "Pyquen_DiJet_pt80to120_2760GeV+HydjetQ_MinBias_2760GeVINPUT+Pyquen_DiJet_pt80to120_2760GeV+DIGIHIMIXSt3+RECOHIMIXSt4+HARVESTHI",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 181
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 181
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "302.0",
+        "name": "Pyquen_ZeemumuJets_pt10_2760GeV+HydjetQ_MinBias_2760GeVINPUT+Pyquen_ZeemumuJets_pt10_2760GeV+DIGIHIMIXSt3+RECOHIMIXSt4+HARVESTHI",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 181
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 181
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
