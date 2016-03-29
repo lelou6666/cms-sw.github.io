@@ -770,7 +770,14 @@
             "fwlite": []
         }, 
         {
-            "addons": [], 
+            "addons": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.1.ICC-mon-11/CMSSW_8_1_ICC_X_2016-03-28-1100/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
             "comp_baseline_state": "errors", 
             "builds": [
                 {
@@ -790,16 +797,29 @@
             "utests": [
                 {
                     "arch": "slc6_amd64_gcc530", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.1.ICC-mon-11/CMSSW_8_1_ICC_X_2016-03-28-1100/new/logAnalysis.pkl']", 
-                    "details": {}
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.1.ICC-mon-11/CMSSW_8_1_ICC_X_2016-03-28-1100/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "248"
+                    }
                 }
             ], 
             "cmsdistTags": {
                 "slc6_amd64_gcc530": "ERR/CMSSW_8_1_ICC_X_2016-03-28-1100/slc6_amd64_gcc530"
             }, 
             "igprof": "not-found", 
-            "relvals": [], 
+            "relvals": [
+                {
+                    "done": false, 
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.1.ICC-mon-11/CMSSW_8_1_ICC_X_2016-03-28-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 126, 
+                        "num_failed": 149
+                    }
+                }
+            ], 
             "static_checks": "not-found", 
             "isIB": true, 
             "hlt_tests": "not-found", 
