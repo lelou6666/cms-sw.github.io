@@ -17822,12 +17822,6 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/mon/8.1-mon-11/CMSSW_8_1_X_2016-03-21-1100/addOnTests.log", 
                         "details": {}
-                    }, 
-                    {
-                        "arch": "fc22_ppc64le_gcc530", 
-                        "passed": true, 
-                        "file": "/data/sdt/buildlogs/fc22_ppc64le_gcc530/www/mon/8.1-mon-11/CMSSW_8_1_X_2016-03-21-1100/addOnTests.log", 
-                        "details": {}
                     }
                 ], 
                 "comp_baseline_state": "ok", 
@@ -17840,15 +17834,6 @@
                             "compWarning": 10, 
                             "ignoreWarning": 91
                         }
-                    }, 
-                    {
-                        "arch": "fc22_ppc64le_gcc530", 
-                        "passed": "warning", 
-                        "file": "/data/sdt/buildlogs/fc22_ppc64le_gcc530/www/mon/8.1-mon-11/CMSSW_8_1_X_2016-03-21-1100/new/logAnalysis.pkl", 
-                        "details": {
-                            "compWarning": 99, 
-                            "ignoreWarning": 323
-                        }
                     }
                 ], 
                 "compared_tags": "CMSSW_8_1_X_2016-03-20-2300-->CMSSW_8_1_X_2016-03-21-1100", 
@@ -17860,14 +17845,6 @@
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/mon/8.1-mon-11/CMSSW_8_1_X_2016-03-21-1100/unitTests-summary.log", 
                         "details": {
                             "num_fails": "28"
-                        }
-                    }, 
-                    {
-                        "arch": "fc22_ppc64le_gcc530", 
-                        "passed": "failed", 
-                        "file": "/data/sdt/buildlogs/fc22_ppc64le_gcc530/www/mon/8.1-mon-11/CMSSW_8_1_X_2016-03-21-1100/unitTests-summary.log", 
-                        "details": {
-                            "num_fails": "29"
                         }
                     }
                 ], 
@@ -17882,16 +17859,6 @@
                             "num_passed": 1144, 
                             "num_failed": 39
                         }
-                    }, 
-                    {
-                        "done": true, 
-                        "arch": "fc22_ppc64le_gcc530", 
-                        "passed": false, 
-                        "file": "/data/sdt/buildlogs/fc22_ppc64le_gcc530/www/mon/8.1-mon-11/CMSSW_8_1_X_2016-03-21-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                        "details": {
-                            "num_passed": 1188, 
-                            "num_failed": 30
-                        }
                     }
                 ], 
                 "static_checks": "slc6_amd64_gcc530", 
@@ -17901,8 +17868,7 @@
                 "inProgress": false, 
                 "release_name": "CMSSW_8_1_X_2016-03-21-1100", 
                 "tests_archs": [
-                    "slc7_aarch64_gcc530", 
-                    "fc22_ppc64le_gcc530"
+                    "slc7_aarch64_gcc530"
                 ], 
                 "RVExceptions": null, 
                 "merged_prs": [
@@ -17941,7 +17907,7 @@
                 "cmsdistTags": {
                     "slc7_aarch64_gcc530": "IB/CMSSW_8_1_X_2016-03-21-2300/slc7_aarch64_gcc530", 
                     "slc6_amd64_gcc493": "IB/CMSSW_8_1_X_2016-03-21-2300/slc6_amd64_gcc493", 
-                    "fc22_ppc64le_gcc530": "IB/CMSSW_8_1_X_2016-03-21-1100/fc22_ppc64le_gcc530", 
+                    "fc22_ppc64le_gcc530": "Not Found", 
                     "slc6_amd64_gcc530": "IB/CMSSW_8_1_X_2016-03-21-2300/slc6_amd64_gcc530", 
                     "slc7_amd64_gcc530": "IB/CMSSW_8_1_X_2016-03-21-2300/slc7_amd64_gcc530"
                 }, 
@@ -18276,7 +18242,7 @@
                 "cmsdistTags": {
                     "slc7_aarch64_gcc530": "IB/CMSSW_8_1_X_2016-03-22-1100/slc7_aarch64_gcc530", 
                     "slc6_amd64_gcc493": "IB/CMSSW_8_1_X_2016-03-21-2300/slc6_amd64_gcc493", 
-                    "fc22_ppc64le_gcc530": "IB/CMSSW_8_1_X_2016-03-21-1100/fc22_ppc64le_gcc530", 
+                    "fc22_ppc64le_gcc530": "Not Found", 
                     "slc6_amd64_gcc530": "IB/CMSSW_8_1_X_2016-03-22-1100/slc6_amd64_gcc530", 
                     "slc7_amd64_gcc530": "IB/CMSSW_8_1_X_2016-03-21-2300/slc7_amd64_gcc530"
                 }, 
