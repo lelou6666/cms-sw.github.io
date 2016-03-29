@@ -244,7 +244,6 @@
 201603140128.47 data/relvals/fc22_ppc64le_gcc530/2016-03-13-0000/CMSSW_8_1_X.json
 201603122339.43 data/relvals/fc22_ppc64le_gcc530/2016-03-12-1100/CMSSW_8_1_X.json
 201603271447.51 data/relvals/fc22_ppc64le_gcc530/2016-03-26-1100/CMSSW_8_1_X.json
-201603152346.14 data/relvals/fc22_ppc64le_gcc530/2016-03-15-1100/CMSSW_8_1_X.json
 201603271447.50 data/relvals/fc22_ppc64le_gcc530/2016-03-08-1100/CMSSW_8_1_X.json
 201603231327.20 data/relvals/fc22_ppc64le_gcc530/2016-03-22-2300/CMSSW_8_1_X.json
 201603271447.51 data/relvals/fc22_ppc64le_gcc530/2016-03-07-2300/CMSSW_8_1_X.json
@@ -529,7 +528,6 @@
 201603140129.17 data/inputs/fc22_ppc64le_gcc530/CMSSW_8_1_X/2016-03-13-0000.csv
 201603122339.57 data/inputs/fc22_ppc64le_gcc530/CMSSW_8_1_X/2016-03-12-1100.csv
 201603271519.23 data/inputs/fc22_ppc64le_gcc530/CMSSW_8_1_X/2016-03-26-1100.csv
-201603152346.25 data/inputs/fc22_ppc64le_gcc530/CMSSW_8_1_X/2016-03-15-1100.csv
 201603271445.16 data/inputs/fc22_ppc64le_gcc530/CMSSW_8_1_X/2016-03-08-1100.csv
 201603231327.19 data/inputs/fc22_ppc64le_gcc530/CMSSW_8_1_X/2016-03-22-2300.csv
 201603271446.15 data/inputs/fc22_ppc64le_gcc530/CMSSW_8_1_X/2016-03-07-2300.csv
@@ -811,7 +809,6 @@
 201603131609.14 data/unitTests/fc22_ppc64le_gcc530/2016-03-13-0000/CMSSW_8_1_X.json
 201603121434.35 data/unitTests/fc22_ppc64le_gcc530/2016-03-12-1100/CMSSW_8_1_X.json
 201603271447.58 data/unitTests/fc22_ppc64le_gcc530/2016-03-26-1100/CMSSW_8_1_X.json
-201603151432.22 data/unitTests/fc22_ppc64le_gcc530/2016-03-15-1100/CMSSW_8_1_X.json
 201603271447.58 data/unitTests/fc22_ppc64le_gcc530/2016-03-08-1100/CMSSW_8_1_X.json
 201603230504.57 data/unitTests/fc22_ppc64le_gcc530/2016-03-22-2300/CMSSW_8_1_X.json
 201603271447.59 data/unitTests/fc22_ppc64le_gcc530/2016-03-07-2300/CMSSW_8_1_X.json
@@ -1096,7 +1093,6 @@
 201603140129.18 data/jobreports/fc22_ppc64le_gcc530/CMSSW_8_1_X/2016-03-13-0000.csv
 201603122339.55 data/jobreports/fc22_ppc64le_gcc530/CMSSW_8_1_X/2016-03-12-1100.csv
 201603271519.59 data/jobreports/fc22_ppc64le_gcc530/CMSSW_8_1_X/2016-03-26-1100.csv
-201603152348.21 data/jobreports/fc22_ppc64le_gcc530/CMSSW_8_1_X/2016-03-15-1100.csv
 201603271458.33 data/jobreports/fc22_ppc64le_gcc530/CMSSW_8_1_X/2016-03-08-1100.csv
 201603231327.19 data/jobreports/fc22_ppc64le_gcc530/CMSSW_8_1_X/2016-03-22-2300.csv
 201603271459.31 data/jobreports/fc22_ppc64le_gcc530/CMSSW_8_1_X/2016-03-07-2300.csv
@@ -1381,7 +1377,6 @@
 201603140130.23 data/commands/fc22_ppc64le_gcc530/2016-03-13-0000/CMSSW_8_1_X.json
 201603122339.45 data/commands/fc22_ppc64le_gcc530/2016-03-12-1100/CMSSW_8_1_X.json
 201603271521.46 data/commands/fc22_ppc64le_gcc530/2016-03-26-1100/CMSSW_8_1_X.json
-201603152349.32 data/commands/fc22_ppc64le_gcc530/2016-03-15-1100/CMSSW_8_1_X.json
 201603271512.52 data/commands/fc22_ppc64le_gcc530/2016-03-08-1100/CMSSW_8_1_X.json
 201603231327.28 data/commands/fc22_ppc64le_gcc530/2016-03-22-2300/CMSSW_8_1_X.json
 201603271513.43 data/commands/fc22_ppc64le_gcc530/2016-03-07-2300/CMSSW_8_1_X.json
