@@ -15846,13 +15846,15 @@
                 ], 
                 "valgrind": "not-found", 
                 "compared_tags": "CMSSW_8_1_DEVEL_X_2016-03-26-1100-->CMSSW_8_1_DEVEL_X_2016-03-28-1100", 
-                "dqm_tests": "inprogress", 
+                "dqm_tests": "found", 
                 "utests": [
                     {
                         "arch": "slc6_amd64_gcc530", 
-                        "passed": "unknown", 
-                        "file": "['/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.1.DEVEL-mon-11/CMSSW_8_1_DEVEL_X_2016-03-28-1100/new/logAnalysis.pkl']", 
-                        "details": {}
+                        "passed": "failed", 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.1.DEVEL-mon-11/CMSSW_8_1_DEVEL_X_2016-03-28-1100/unitTests-summary.log", 
+                        "details": {
+                            "num_fails": "1"
+                        }
                     }
                 ], 
                 "cmsdistTags": {
@@ -15866,7 +15868,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.1.DEVEL-mon-11/CMSSW_8_1_DEVEL_X_2016-03-28-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 227, 
+                            "num_passed": 296, 
                             "num_failed": 0
                         }
                     }
@@ -20578,8 +20580,8 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.1-mon-11/CMSSW_8_1_X_2016-03-28-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 427, 
-                            "num_failed": 1
+                            "num_passed": 559, 
+                            "num_failed": 2
                         }
                     }
                 ], 
@@ -20597,42 +20599,130 @@
                 "hlt_tests": "inprogress"
             }, 
             {
-                "fwlite": [], 
-                "cmsdistTags": {}, 
+                "fwlite": [
+                    {
+                        "arch": "slc6_amd64_gcc530", 
+                        "passed": "warning", 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.1-mon-23/CMSSW_8_1_X_2016-03-28-2300/new_FWLITE/logAnalysis.pkl", 
+                        "details": {
+                            "compWarning": 1
+                        }
+                    }
+                ], 
+                "cmsdistTags": {
+                    "slc7_aarch64_gcc530": "IB/CMSSW_8_1_X_2016-03-28-2300/slc7_aarch64_gcc530", 
+                    "slc6_amd64_gcc493": "IB/CMSSW_8_1_X_2016-03-28-2300/slc6_amd64_gcc493", 
+                    "slc7_amd64_gcc530": "IB/CMSSW_8_1_X_2016-03-28-2300/slc7_amd64_gcc530", 
+                    "slc6_amd64_gcc530": "IB/CMSSW_8_1_X_2016-03-28-2300/slc6_amd64_gcc530", 
+                    "fc22_ppc64le_gcc530": "IB/CMSSW_8_1_X_2016-03-28-2300/fc22_ppc64le_gcc530"
+                }, 
                 "addons": [], 
                 "comp_baseline_state": "ok", 
-                "builds": [], 
-                "compared_tags": "CMSSW_8_1_X_2016-03-28-1100-->CMSSW_8_1_X", 
+                "builds": [
+                    {
+                        "arch": "slc6_amd64_gcc530", 
+                        "passed": "warning", 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.1-mon-23/CMSSW_8_1_X_2016-03-28-2300/new/logAnalysis.pkl", 
+                        "details": {
+                            "compWarning": 8, 
+                            "ignoreWarning": 282
+                        }
+                    }, 
+                    {
+                        "arch": "slc7_aarch64_gcc530", 
+                        "passed": "warning", 
+                        "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/mon/8.1-mon-23/CMSSW_8_1_X_2016-03-28-2300/new/logAnalysis.pkl", 
+                        "details": {
+                            "compWarning": 12, 
+                            "ignoreWarning": 289
+                        }
+                    }, 
+                    {
+                        "arch": "fc22_ppc64le_gcc530", 
+                        "passed": "warning", 
+                        "file": "/data/sdt/buildlogs/fc22_ppc64le_gcc530/www/mon/8.1-mon-23/CMSSW_8_1_X_2016-03-28-2300/new/logAnalysis.pkl", 
+                        "details": {
+                            "compWarning": 86, 
+                            "ignoreWarning": 334
+                        }
+                    }, 
+                    {
+                        "arch": "slc7_amd64_gcc530", 
+                        "passed": "warning", 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/mon/8.1-mon-23/CMSSW_8_1_X_2016-03-28-2300/new/logAnalysis.pkl", 
+                        "details": {
+                            "compWarning": 9, 
+                            "ignoreWarning": 281
+                        }
+                    }, 
+                    {
+                        "arch": "slc6_amd64_gcc493", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/mon/8.1-mon-23/CMSSW_8_1_X_2016-03-28-2300/new/logAnalysis.pkl", 
+                        "details": {
+                            "ignoreWarning": 8
+                        }
+                    }
+                ], 
+                "compared_tags": "CMSSW_8_1_X_2016-03-28-1100-->CMSSW_8_1_X_2016-03-28-2300", 
                 "valgrind": "inprogress", 
-                "utests": [], 
+                "utests": [
+                    {
+                        "arch": "slc6_amd64_gcc530", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.1-mon-23/CMSSW_8_1_X_2016-03-28-2300/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }, 
+                    {
+                        "arch": "slc7_aarch64_gcc530", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc7_aarch64_gcc530/www/mon/8.1-mon-23/CMSSW_8_1_X_2016-03-28-2300/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }, 
+                    {
+                        "arch": "fc22_ppc64le_gcc530", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/fc22_ppc64le_gcc530/www/mon/8.1-mon-23/CMSSW_8_1_X_2016-03-28-2300/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }, 
+                    {
+                        "arch": "slc7_amd64_gcc530", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc7_amd64_gcc530/www/mon/8.1-mon-23/CMSSW_8_1_X_2016-03-28-2300/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }, 
+                    {
+                        "arch": "slc6_amd64_gcc493", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc6_amd64_gcc493/www/mon/8.1-mon-23/CMSSW_8_1_X_2016-03-28-2300/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }
+                ], 
                 "dqm_tests": "inprogress", 
                 "relvals": [], 
                 "static_checks": "inprogress", 
                 "igprof": "inprogress", 
-                "isIB": false, 
+                "isIB": true, 
                 "comp_baseline": "inprogress", 
                 "inProgress": false, 
-                "release_name": "CMSSW_8_1_X", 
-                "tests_archs": [], 
+                "release_name": "CMSSW_8_1_X_2016-03-28-2300", 
+                "tests_archs": [
+                    "slc7_aarch64_gcc530", 
+                    "slc6_amd64_gcc493", 
+                    "slc7_amd64_gcc530", 
+                    "slc6_amd64_gcc530", 
+                    "fc22_ppc64le_gcc530"
+                ], 
                 "RVExceptions": null, 
                 "merged_prs": [
                     {
-                        "hash": "6b776bf56d4ea100b587ca8e1154651ce3f3fced", 
-                        "title": "8x Fireworks: move clipping cone apex in 3D region view ", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/13850", 
-                        "number": "13850", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "alja"
-                    }, 
-                    {
-                        "hash": "e4daef5a3d624d3ac2a9d9104d8bc2837493bfba", 
-                        "title": "Quadruplet seeding by propagating triplet to 4th layer", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/13753", 
-                        "number": "13753", 
+                        "hash": "8201e22c42a353f2058a6772924e5913f2388572", 
+                        "title": "Update miniAOD AK8 userFloat content. Add PUPPI substructure. Remove CMSTT.", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13793", 
+                        "number": "13793", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "makortel"
+                        "author_login": "jdolen"
                     }, 
                     {
                         "hash": "819c129457068a17ec30b059599544adc6b78c7f", 
@@ -20651,24 +20741,6 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "bsunanda"
-                    }, 
-                    {
-                        "hash": "8201e22c42a353f2058a6772924e5913f2388572", 
-                        "title": "Update miniAOD AK8 userFloat content. Add PUPPI substructure. Remove CMSTT.", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/13793", 
-                        "number": "13793", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "jdolen"
-                    }, 
-                    {
-                        "hash": "241df34918b51fc94a8bf8cc28860488ef03fd1a", 
-                        "title": "Fix crash in CorrelationConditions uGT emulator", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/13809", 
-                        "number": "13809", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "cms-l1t-offline"
                     }, 
                     {
                         "hash": "f50ec9cb339b4371a133a6ff955c8baee261d96f", 
@@ -20705,6 +20777,56 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "hroskes"
+                    }
+                ], 
+                "hlt_tests": "inprogress"
+            }, 
+            {
+                "fwlite": [], 
+                "cmsdistTags": {}, 
+                "addons": [], 
+                "comp_baseline_state": "ok", 
+                "builds": [], 
+                "compared_tags": "CMSSW_8_1_X_2016-03-28-2300-->CMSSW_8_1_X", 
+                "valgrind": "inprogress", 
+                "utests": [], 
+                "dqm_tests": "inprogress", 
+                "relvals": [], 
+                "static_checks": "inprogress", 
+                "igprof": "inprogress", 
+                "isIB": false, 
+                "comp_baseline": "inprogress", 
+                "inProgress": false, 
+                "release_name": "CMSSW_8_1_X", 
+                "tests_archs": [], 
+                "RVExceptions": null, 
+                "merged_prs": [
+                    {
+                        "hash": "6b776bf56d4ea100b587ca8e1154651ce3f3fced", 
+                        "title": "8x Fireworks: move clipping cone apex in 3D region view ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13850", 
+                        "number": "13850", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "alja"
+                    }, 
+                    {
+                        "hash": "241df34918b51fc94a8bf8cc28860488ef03fd1a", 
+                        "title": "Fix crash in CorrelationConditions uGT emulator", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13809", 
+                        "number": "13809", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "cms-l1t-offline"
+                    }, 
+                    {
+                        "hash": "e4daef5a3d624d3ac2a9d9104d8bc2837493bfba", 
+                        "title": "Quadruplet seeding by propagating triplet to 4th layer", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13753", 
+                        "number": "13753", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
                     }
                 ], 
                 "hlt_tests": "inprogress"
