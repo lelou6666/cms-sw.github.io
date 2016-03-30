@@ -5740,6 +5740,28 @@
     },
     {
         "exitcode": 0,
+        "id": "1301.0",
+        "name": "ProdMinBias_13+ProdMinBias_13+DIGIUP15PROD1+RECOPRODUP15",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 60
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 172
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 135
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "1302.0",
         "name": "ProdTTbar_13+ProdTTbar_13+DIGIUP15PROD1+RECOPRODUP15",
         "steps": [
@@ -7220,6 +7242,28 @@
                 "errors": 200,
                 "status": "PASSED",
                 "warnings": 218
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4006.0",
+        "name": "SingleElectronFlatPt1To100+SingleElectronFlatPt1To100+DIGIPU1+RECOPU1",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 43
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 220
             }
         ]
     },
