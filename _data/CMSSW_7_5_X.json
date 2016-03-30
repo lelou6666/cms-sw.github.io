@@ -206,11 +206,60 @@
             "hlt_tests": "inprogress"
         }, 
         {
+            "fwlite": [
+                {
+                    "arch": "slc6_amd64_gcc491", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/wed/7.5-wed-11/CMSSW_7_5_X_2016-03-30-1100/new_FWLITE/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 6
+                    }
+                }
+            ], 
+            "addons": [], 
+            "comp_baseline_state": "ok", 
+            "builds": [
+                {
+                    "arch": "slc6_amd64_gcc491", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/wed/7.5-wed-11/CMSSW_7_5_X_2016-03-30-1100/new/logAnalysis.pkl", 
+                    "details": {}
+                }
+            ], 
+            "compared_tags": "CMSSW_7_5_8_patch4-->CMSSW_7_5_X_2016-03-30-1100", 
+            "valgrind": "inprogress", 
+            "utests": [
+                {
+                    "arch": "slc6_amd64_gcc491", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/slc6_amd64_gcc491/www/wed/7.5-wed-11/CMSSW_7_5_X_2016-03-30-1100/new/logAnalysis.pkl']", 
+                    "details": {}
+                }
+            ], 
+            "dqm_tests": "inprogress", 
+            "igprof": "not-found", 
+            "relvals": [], 
+            "static_checks": "inprogress", 
+            "cmsdistTags": {
+                "slc6_amd64_gcc491": "IB/CMSSW_7_5_X_2016-03-28-2300/slc6_amd64_gcc491"
+            }, 
+            "isIB": true, 
+            "comp_baseline": "inprogress", 
+            "inProgress": false, 
+            "release_name": "CMSSW_7_5_X_2016-03-30-1100", 
+            "tests_archs": [
+                "slc6_amd64_gcc491"
+            ], 
+            "RVExceptions": null, 
+            "merged_prs": [], 
+            "hlt_tests": "inprogress"
+        }, 
+        {
             "fwlite": [], 
             "addons": [], 
             "comp_baseline_state": "ok", 
             "builds": [], 
-            "compared_tags": "CMSSW_7_5_8_patch4-->CMSSW_7_5_X", 
+            "compared_tags": "CMSSW_7_5_X_2016-03-30-1100-->CMSSW_7_5_X", 
             "valgrind": "inprogress", 
             "utests": [], 
             "dqm_tests": "inprogress", 
