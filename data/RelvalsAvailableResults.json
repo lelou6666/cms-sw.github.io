@@ -40,7 +40,7 @@
     "CMSSW_8_0_THREADED_X_2016-03-21-1100": "slc6_amd64_gcc493", 
     "CMSSW_8_0_THREADED_X_2016-03-24-1100": "slc6_amd64_gcc530", 
     "CMSSW_6_2_SLHCDEV_X_2016-03-28-2300": "slc6_amd64_gcc472", 
-    "CMSSW_8_1_X_2016-03-28-2300": "slc6_amd64_gcc493,slc7_aarch64_gcc530,fc22_ppc64le_gcc530,slc7_amd64_gcc530", 
+    "CMSSW_8_1_X_2016-03-28-2300": "slc6_amd64_gcc493,slc6_amd64_gcc530,slc7_aarch64_gcc530,fc22_ppc64le_gcc530,slc7_amd64_gcc530", 
     "CMSSW_8_1_ICC_X_2016-03-25-2300": "slc6_amd64_gcc530", 
     "CMSSW_8_1_X_2016-03-25-1700": "slc6_amd64_gcc493,slc6_amd64_gcc530,slc7_aarch64_gcc530,fc22_ppc64le_gcc530,slc7_amd64_gcc530", 
     "CMSSW_8_0_THREADED_X_2016-03-28-2300": "slc6_amd64_gcc530", 
