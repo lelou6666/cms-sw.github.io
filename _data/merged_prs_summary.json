@@ -12981,7 +12981,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/wed/7.5-wed-11/CMSSW_7_5_X_2016-03-30-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 874, 
+                            "num_passed": 908, 
                             "num_failed": 8
                         }
                     }
@@ -19674,8 +19674,8 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/wed/8.1.THREADED-wed-11/CMSSW_8_1_THREADED_X_2016-03-30-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 539, 
-                            "num_failed": 110
+                            "num_passed": 563, 
+                            "num_failed": 113
                         }
                     }
                 ], 
@@ -22485,12 +22485,12 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/tue/8.1-tue-11/CMSSW_8_1_X_2016-03-29-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 864, 
+                            "num_passed": 888, 
                             "num_failed": 4
                         }
                     }, 
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "fc22_ppc64le_gcc530", 
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/fc22_ppc64le_gcc530/www/tue/8.1-tue-11/CMSSW_8_1_X_2016-03-29-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
@@ -22682,8 +22682,8 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/wed/8.1-wed-11/CMSSW_8_1_X_2016-03-30-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 258, 
-                            "num_failed": 76
+                            "num_passed": 330, 
+                            "num_failed": 78
                         }
                     }
                 ], 
