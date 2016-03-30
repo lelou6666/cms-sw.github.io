@@ -7481,7 +7481,17 @@
                 "inProgress": false, 
                 "release_name": "CMSSW_7_1_X", 
                 "RVExceptions": null, 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "9c442905936ca80553a85bc02fb02c85cf279084", 
+                        "title": "bsunanda:Run2-alca38 Backporting the additional protection from PR 13720", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13721", 
+                        "number": "13721", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }
+                ], 
                 "hlt_tests": "inprogress"
             }
         ]
@@ -12794,7 +12804,44 @@
                 "release_name": "CMSSW_7_5_X", 
                 "tests_archs": [], 
                 "RVExceptions": null, 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "58a589477321cba1ac848a1bf82b1b6fee8e0b44", 
+                        "title": "back port of conditionUploadTest.py", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13315", 
+                        "number": "13315", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "franzoni"
+                    }, 
+                    {
+                        "hash": "3dd7bfe9c60b65b57e5b98cb60a75a06a8fddb77", 
+                        "title": "Added customizations to run pp reco on peripheral HI events", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13604", 
+                        "number": "13604", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mandrenguyen"
+                    }, 
+                    {
+                        "hash": "403364874623ea044992f1d09954521da247ad12", 
+                        "title": "Filter to select HLT paths corresponding to peripheral HI events", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13776", 
+                        "number": "13776", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mandrenguyen"
+                    }, 
+                    {
+                        "hash": "21e81429cca9942bab209ef6edda88dbb153c2ce", 
+                        "title": "Fix MillePede workflow using weights for the input data (Backport of #13321).", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13323", 
+                        "number": "13323", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ghellwig"
+                    }
+                ], 
                 "hlt_tests": "inprogress"
             }
         ]
@@ -15864,13 +15911,13 @@
                         "author_login": "Martin-Grunewald"
                     }, 
                     {
-                        "hash": "bed092daad21f9eb10ac05e20f1556f6d675de93", 
-                        "title": "bsunanda:Phase2-gem12 Get geometry information of GEM detector", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/13848", 
-                        "number": "13848", 
+                        "hash": "58dccb80cdf0355be53c32537d0f15081392e72a", 
+                        "title": "mv test record.cppunit.cpp from DataFormats/FWLite to PhysicsTools/Co", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13859", 
+                        "number": "13859", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "bsunanda"
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "5e1d7fbecd9e6eb2c59f61d3dc05f030bfeaa7b9", 
@@ -15882,13 +15929,22 @@
                         "author_login": "wmtan"
                     }, 
                     {
-                        "hash": "58dccb80cdf0355be53c32537d0f15081392e72a", 
-                        "title": "mv test record.cppunit.cpp from DataFormats/FWLite to PhysicsTools/Co", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/13859", 
-                        "number": "13859", 
+                        "hash": "bed092daad21f9eb10ac05e20f1556f6d675de93", 
+                        "title": "bsunanda:Phase2-gem12 Get geometry information of GEM detector", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13848", 
+                        "number": "13848", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "ff2a0a81a5243dad3c26a4626dffdf8122db4cf9", 
+                        "title": "E/g HLT Pixel Match Variable Producer", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13846", 
+                        "number": "13846", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Sam-Harper"
                     }, 
                     {
                         "hash": "d9c21795afc60658ce1f45341c75a06d9ef92243", 
@@ -15898,6 +15954,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "alja"
+                    }, 
+                    {
+                        "hash": "7a535b75e26e405118414c246f55ef0f4eb99061", 
+                        "title": "bsunanda:Run2-hcx76 Remove obsolete parameter definitions for relabelling at DIGI step", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13822", 
+                        "number": "13822", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
                     }
                 ], 
                 "fwlite": []
@@ -17092,7 +17157,71 @@
                 "release_name": "CMSSW_8_1_ROOT64_X", 
                 "tests_archs": [], 
                 "RVExceptions": null, 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "189f619cafea31ae00940e1e16d72a10efd01a77", 
+                        "title": "Less verbose HLTPrescaleProvider (81X)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13852", 
+                        "number": "13852", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "Martin-Grunewald"
+                    }, 
+                    {
+                        "hash": "58dccb80cdf0355be53c32537d0f15081392e72a", 
+                        "title": "mv test record.cppunit.cpp from DataFormats/FWLite to PhysicsTools/Co", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13859", 
+                        "number": "13859", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "5e1d7fbecd9e6eb2c59f61d3dc05f030bfeaa7b9", 
+                        "title": "Change auto_ptr to unique_ptr in text", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13855", 
+                        "number": "13855", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "wmtan"
+                    }, 
+                    {
+                        "hash": "bed092daad21f9eb10ac05e20f1556f6d675de93", 
+                        "title": "bsunanda:Phase2-gem12 Get geometry information of GEM detector", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13848", 
+                        "number": "13848", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "ff2a0a81a5243dad3c26a4626dffdf8122db4cf9", 
+                        "title": "E/g HLT Pixel Match Variable Producer", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13846", 
+                        "number": "13846", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "Sam-Harper"
+                    }, 
+                    {
+                        "hash": "d9c21795afc60658ce1f45341c75a06d9ef92243", 
+                        "title": "80x Fireworks: Set classic root gui style", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13860", 
+                        "number": "13860", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "alja"
+                    }, 
+                    {
+                        "hash": "7a535b75e26e405118414c246f55ef0f4eb99061", 
+                        "title": "bsunanda:Run2-hcx76 Remove obsolete parameter definitions for relabelling at DIGI step", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13822", 
+                        "number": "13822", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "bsunanda"
+                    }
+                ], 
                 "fwlite": []
             }
         ]
@@ -18182,13 +18311,13 @@
                         "author_login": "Martin-Grunewald"
                     }, 
                     {
-                        "hash": "bed092daad21f9eb10ac05e20f1556f6d675de93", 
-                        "title": "bsunanda:Phase2-gem12 Get geometry information of GEM detector", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/13848", 
-                        "number": "13848", 
+                        "hash": "58dccb80cdf0355be53c32537d0f15081392e72a", 
+                        "title": "mv test record.cppunit.cpp from DataFormats/FWLite to PhysicsTools/Co", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13859", 
+                        "number": "13859", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "bsunanda"
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "5e1d7fbecd9e6eb2c59f61d3dc05f030bfeaa7b9", 
@@ -18200,13 +18329,22 @@
                         "author_login": "wmtan"
                     }, 
                     {
-                        "hash": "58dccb80cdf0355be53c32537d0f15081392e72a", 
-                        "title": "mv test record.cppunit.cpp from DataFormats/FWLite to PhysicsTools/Co", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/13859", 
-                        "number": "13859", 
+                        "hash": "bed092daad21f9eb10ac05e20f1556f6d675de93", 
+                        "title": "bsunanda:Phase2-gem12 Get geometry information of GEM detector", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13848", 
+                        "number": "13848", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "ff2a0a81a5243dad3c26a4626dffdf8122db4cf9", 
+                        "title": "E/g HLT Pixel Match Variable Producer", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13846", 
+                        "number": "13846", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Sam-Harper"
                     }, 
                     {
                         "hash": "d9c21795afc60658ce1f45341c75a06d9ef92243", 
@@ -18216,6 +18354,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "alja"
+                    }, 
+                    {
+                        "hash": "7a535b75e26e405118414c246f55ef0f4eb99061", 
+                        "title": "bsunanda:Run2-hcx76 Remove obsolete parameter definitions for relabelling at DIGI step", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13822", 
+                        "number": "13822", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
                     }
                 ], 
                 "fwlite": []
@@ -19305,13 +19452,13 @@
                         "author_login": "Martin-Grunewald"
                     }, 
                     {
-                        "hash": "bed092daad21f9eb10ac05e20f1556f6d675de93", 
-                        "title": "bsunanda:Phase2-gem12 Get geometry information of GEM detector", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/13848", 
-                        "number": "13848", 
+                        "hash": "58dccb80cdf0355be53c32537d0f15081392e72a", 
+                        "title": "mv test record.cppunit.cpp from DataFormats/FWLite to PhysicsTools/Co", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13859", 
+                        "number": "13859", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "bsunanda"
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "5e1d7fbecd9e6eb2c59f61d3dc05f030bfeaa7b9", 
@@ -19323,13 +19470,22 @@
                         "author_login": "wmtan"
                     }, 
                     {
-                        "hash": "58dccb80cdf0355be53c32537d0f15081392e72a", 
-                        "title": "mv test record.cppunit.cpp from DataFormats/FWLite to PhysicsTools/Co", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/13859", 
-                        "number": "13859", 
+                        "hash": "bed092daad21f9eb10ac05e20f1556f6d675de93", 
+                        "title": "bsunanda:Phase2-gem12 Get geometry information of GEM detector", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13848", 
+                        "number": "13848", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "ff2a0a81a5243dad3c26a4626dffdf8122db4cf9", 
+                        "title": "E/g HLT Pixel Match Variable Producer", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13846", 
+                        "number": "13846", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Sam-Harper"
                     }, 
                     {
                         "hash": "d9c21795afc60658ce1f45341c75a06d9ef92243", 
@@ -19339,6 +19495,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "alja"
+                    }, 
+                    {
+                        "hash": "7a535b75e26e405118414c246f55ef0f4eb99061", 
+                        "title": "bsunanda:Run2-hcx76 Remove obsolete parameter definitions for relabelling at DIGI step", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13822", 
+                        "number": "13822", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
                     }
                 ], 
                 "fwlite": []
@@ -22305,13 +22470,13 @@
                         "author_login": "Martin-Grunewald"
                     }, 
                     {
-                        "hash": "bed092daad21f9eb10ac05e20f1556f6d675de93", 
-                        "title": "bsunanda:Phase2-gem12 Get geometry information of GEM detector", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/13848", 
-                        "number": "13848", 
+                        "hash": "58dccb80cdf0355be53c32537d0f15081392e72a", 
+                        "title": "mv test record.cppunit.cpp from DataFormats/FWLite to PhysicsTools/Co", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13859", 
+                        "number": "13859", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "bsunanda"
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "5e1d7fbecd9e6eb2c59f61d3dc05f030bfeaa7b9", 
@@ -22323,13 +22488,22 @@
                         "author_login": "wmtan"
                     }, 
                     {
-                        "hash": "58dccb80cdf0355be53c32537d0f15081392e72a", 
-                        "title": "mv test record.cppunit.cpp from DataFormats/FWLite to PhysicsTools/Co", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/13859", 
-                        "number": "13859", 
+                        "hash": "bed092daad21f9eb10ac05e20f1556f6d675de93", 
+                        "title": "bsunanda:Phase2-gem12 Get geometry information of GEM detector", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13848", 
+                        "number": "13848", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "ff2a0a81a5243dad3c26a4626dffdf8122db4cf9", 
+                        "title": "E/g HLT Pixel Match Variable Producer", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13846", 
+                        "number": "13846", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Sam-Harper"
                     }, 
                     {
                         "hash": "d9c21795afc60658ce1f45341c75a06d9ef92243", 
@@ -22339,6 +22513,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "alja"
+                    }, 
+                    {
+                        "hash": "7a535b75e26e405118414c246f55ef0f4eb99061", 
+                        "title": "bsunanda:Run2-hcx76 Remove obsolete parameter definitions for relabelling at DIGI step", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13822", 
+                        "number": "13822", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
                     }
                 ], 
                 "hlt_tests": "inprogress"

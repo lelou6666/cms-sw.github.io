@@ -4535,6 +4535,13 @@
     "title": "Quiet errors from missing RCT payload, which is expected for MC", 
     "user_ref": "pr-quiet-rct"
   }, 
+  "13315": {
+    "author": "franzoni", 
+    "branch": "CMSSW_7_5_X", 
+    "hash": "58a589477321cba1ac848a1bf82b1b6fee8e0b44", 
+    "title": "back port of conditionUploadTest.py", 
+    "user_ref": "gf_from-CMSSW_7_5_8_patch3"
+  }, 
   "13317": {
     "author": "makortel", 
     "branch": "CMSSW_8_0_X", 
@@ -4562,6 +4569,13 @@
     "hash": "8d8453dddb96add500a67bc488f55d98f3559ba4", 
     "title": "Fix MillePede workflow using weights for the input data.", 
     "user_ref": "fix_MillePede_use-case_with_weights_80X"
+  }, 
+  "13323": {
+    "author": "ghellwig", 
+    "branch": "CMSSW_7_5_X", 
+    "hash": "21e81429cca9942bab209ef6edda88dbb153c2ce", 
+    "title": "Fix MillePede workflow using weights for the input data (Backport of #13321).", 
+    "user_ref": "fix_MillePede_use-case_with_weights_75X"
   }, 
   "13329": {
     "author": "cms-l1t-offline", 
@@ -5795,6 +5809,13 @@
     "title": "Added customizations to run pp reco on peripheral HI events", 
     "user_ref": "customizePPrecoForHI81X"
   }, 
+  "13604": {
+    "author": "mandrenguyen", 
+    "branch": "CMSSW_7_5_X", 
+    "hash": "3dd7bfe9c60b65b57e5b98cb60a75a06a8fddb77", 
+    "title": "Added customizations to run pp reco on peripheral HI events", 
+    "user_ref": "customizePPrecoForHI75X"
+  }, 
   "13605": {
     "author": "ferencek", 
     "branch": "CMSSW_8_0_X", 
@@ -6320,6 +6341,13 @@
     "title": "bsunanda:Run2-alca37 Fix bug to avoid run-time error for Pythia8", 
     "user_ref": "Run2-alca37"
   }, 
+  "13721": {
+    "author": "bsunanda", 
+    "branch": "CMSSW_7_1_X", 
+    "hash": "9c442905936ca80553a85bc02fb02c85cf279084", 
+    "title": "bsunanda:Run2-alca38 Backporting the additional protection from PR 13720", 
+    "user_ref": "Run2-alca38"
+  }, 
   "13722": {
     "author": "wmtan", 
     "branch": "CMSSW_8_1_X", 
@@ -6544,6 +6572,13 @@
     "title": "cleanup of the TestBeam", 
     "user_ref": "cleanup_TB2006"
   }, 
+  "13776": {
+    "author": "mandrenguyen", 
+    "branch": "CMSSW_7_5_X", 
+    "hash": "403364874623ea044992f1d09954521da247ad12", 
+    "title": "Filter to select HLT paths corresponding to peripheral HI events", 
+    "user_ref": "peripheralHLTfilter75X"
+  }, 
   "13778": {
     "author": "bsunanda", 
     "branch": "CMSSW_8_0_X", 
@@ -6691,12 +6726,26 @@
     "title": "Introducing realistic phase-I simuation key", 
     "user_ref": "GTs_81X_realisticPhaseI"
   }, 
+  "13822": {
+    "author": "bsunanda", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "7a535b75e26e405118414c246f55ef0f4eb99061", 
+    "title": "bsunanda:Run2-hcx76 Remove obsolete parameter definitions for relabelling at DIGI step", 
+    "user_ref": "Run2-hcx76"
+  }, 
   "13823": {
     "author": "lihux25", 
     "branch": "CMSSW_8_1_X", 
     "hash": "b6c714fa2c38695de013876044b1cfbee98919ad", 
     "title": "Fix crash in HcalDumpConditions.cc ", 
     "user_ref": "fix_crash_hcal_db_dump"
+  }, 
+  "13846": {
+    "author": "Sam-Harper", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "ff2a0a81a5243dad3c26a4626dffdf8122db4cf9", 
+    "title": "E/g HLT Pixel Match Variable Producer", 
+    "user_ref": "EgPMS2Producer8X"
   }, 
   "13848": {
     "author": "bsunanda", 
