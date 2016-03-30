@@ -151,7 +151,7 @@
             "addons": [], 
             "comp_baseline_state": "ok", 
             "builds": [], 
-            "compared_tags": "CMSSW_7_5_X_2016-03-28-2300-->CMSSW_7_5_X", 
+            "compared_tags": "CMSSW_7_5_X_2016-03-28-2300-->CMSSW_7_5_8_patch4", 
             "valgrind": "inprogress", 
             "utests": [], 
             "dqm_tests": "inprogress", 
@@ -162,7 +162,7 @@
             "isIB": false, 
             "comp_baseline": "inprogress", 
             "inProgress": false, 
-            "release_name": "CMSSW_7_5_X", 
+            "release_name": "CMSSW_7_5_8_patch4", 
             "tests_archs": [], 
             "RVExceptions": null, 
             "merged_prs": [
@@ -203,6 +203,28 @@
                     "author_login": "ghellwig"
                 }
             ], 
+            "hlt_tests": "inprogress"
+        }, 
+        {
+            "fwlite": [], 
+            "addons": [], 
+            "comp_baseline_state": "ok", 
+            "builds": [], 
+            "compared_tags": "CMSSW_7_5_8_patch4-->CMSSW_7_5_X", 
+            "valgrind": "inprogress", 
+            "utests": [], 
+            "dqm_tests": "inprogress", 
+            "igprof": "not-found", 
+            "relvals": [], 
+            "static_checks": "inprogress", 
+            "cmsdistTags": {}, 
+            "isIB": false, 
+            "comp_baseline": "inprogress", 
+            "inProgress": false, 
+            "release_name": "CMSSW_7_5_X", 
+            "tests_archs": [], 
+            "RVExceptions": null, 
+            "merged_prs": [], 
             "hlt_tests": "inprogress"
         }
     ]
