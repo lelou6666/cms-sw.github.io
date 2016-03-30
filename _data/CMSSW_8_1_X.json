@@ -2849,7 +2849,7 @@
             "static_checks": "inprogress", 
             "igprof": "found", 
             "isIB": true, 
-            "comp_baseline": "inprogress", 
+            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_8_1_X_2016-03-29-1100/slc6_amd64_gcc530/-GenuineIntel/matrix-results", 
             "inProgress": false, 
             "release_name": "CMSSW_8_1_X_2016-03-29-1100", 
             "tests_archs": [
