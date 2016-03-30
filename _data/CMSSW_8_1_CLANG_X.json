@@ -996,21 +996,44 @@
         {
             "addons": [], 
             "comp_baseline_state": "errors", 
-            "builds": [], 
+            "builds": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "error", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/wed/8.1.CLANG-wed-11/CMSSW_8_1_CLANG_X_2016-03-30-1100/new/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 3434, 
+                        "linkError": 1, 
+                        "compError": 3, 
+                        "ignoreWarning": 3000
+                    }
+                }
+            ], 
             "valgrind": "not-found", 
-            "compared_tags": "CMSSW_8_1_CLANG_X_2016-03-29-1100-->CMSSW_8_1_X", 
+            "compared_tags": "CMSSW_8_1_CLANG_X_2016-03-29-1100-->CMSSW_8_1_CLANG_X_2016-03-30-1100", 
             "dqm_tests": "inprogress", 
-            "utests": [], 
-            "cmsdistTags": {}, 
+            "utests": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/slc6_amd64_gcc530/www/wed/8.1.CLANG-wed-11/CMSSW_8_1_CLANG_X_2016-03-30-1100/new/logAnalysis.pkl']", 
+                    "details": {}
+                }
+            ], 
+            "cmsdistTags": {
+                "slc6_amd64_gcc530": "IB/CMSSW_8_1_CLANG_X_2016-03-28-2300/slc6_amd64_gcc530"
+            }, 
             "igprof": "not-found", 
             "relvals": [], 
             "static_checks": "not-found", 
-            "isIB": false, 
+            "isIB": true, 
             "hlt_tests": "not-found", 
             "comp_baseline": "not-found", 
             "inProgress": false, 
-            "release_name": "CMSSW_8_1_X", 
-            "tests_archs": [], 
+            "release_name": "CMSSW_8_1_CLANG_X_2016-03-30-1100", 
+            "tests_archs": [
+                "slc6_amd64_gcc530"
+            ], 
             "RVExceptions": null, 
             "merged_prs": [
                 {
@@ -1077,6 +1100,28 @@
                     "author_login": "bsunanda"
                 }
             ], 
+            "fwlite": []
+        }, 
+        {
+            "addons": [], 
+            "comp_baseline_state": "errors", 
+            "builds": [], 
+            "valgrind": "not-found", 
+            "compared_tags": "CMSSW_8_1_CLANG_X_2016-03-30-1100-->CMSSW_8_1_X", 
+            "dqm_tests": "inprogress", 
+            "utests": [], 
+            "cmsdistTags": {}, 
+            "igprof": "not-found", 
+            "relvals": [], 
+            "static_checks": "not-found", 
+            "isIB": false, 
+            "hlt_tests": "not-found", 
+            "comp_baseline": "not-found", 
+            "inProgress": false, 
+            "release_name": "CMSSW_8_1_X", 
+            "tests_archs": [], 
+            "RVExceptions": null, 
+            "merged_prs": [], 
             "fwlite": []
         }
     ]
