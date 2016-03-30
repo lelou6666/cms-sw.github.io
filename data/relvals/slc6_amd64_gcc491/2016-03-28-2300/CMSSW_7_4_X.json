@@ -15,10 +15,14 @@
                 "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -38,10 +42,14 @@
                 "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -61,10 +69,14 @@
                 "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -84,10 +96,14 @@
                 "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
                 "status": "NOTRUN"
@@ -110,10 +126,14 @@
                 "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
                 "status": "NOTRUN"
@@ -136,10 +156,14 @@
                 "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
                 "status": "NOTRUN"
@@ -174,10 +198,14 @@
                 "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -197,10 +225,14 @@
                 "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -220,10 +252,14 @@
                 "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -243,10 +279,14 @@
                 "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -266,10 +306,14 @@
                 "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -289,10 +333,14 @@
                 "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -312,10 +360,14 @@
                 "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -335,10 +387,14 @@
                 "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -358,10 +414,41 @@
                 "warnings": 4
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            }
+        ]
+    },
+    {
+        "exitcode": 23552,
+        "id": "4.67",
+        "name": "ZElSkim2012C+ZElSkim2012C+HLTDSKIM+RECODreHLT+HARVESTDreHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 4
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -379,6 +466,26 @@
                 "errors": 0,
                 "status": "FAILED",
                 "warnings": 4
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4.12",
+        "name": "RunMinBias2010B+RunMinBias2010B+RECOD+HARVESTD",
+        "steps": [
+            {
+                "status": "NOTRUN"
             },
             {
                 "status": "NOTRUN"
@@ -401,6 +508,195 @@
             },
             {
                 "status": "NOTRUN"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4.19",
+        "name": "RunElectron2011A+RunElectron2011A+RECOD+HARVESTD",
+        "steps": [
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4.2",
+        "name": "RunPhoton2011A+RunPhoton2011A+RECOD+HARVESTD",
+        "steps": [
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4.21",
+        "name": "RunJet2011A+RunJet2011A+RECOD+HARVESTD",
+        "steps": [
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4.3",
+        "name": "RunMu2011B+RunMu2011B+HLTD+RECODreHLT+HARVESTDreHLT",
+        "steps": [
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4.31",
+        "name": "RunElectron2011B+RunElectron2011B+HLTD+RECODreHLT+HARVESTDreHLT",
+        "steps": [
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4.32",
+        "name": "RunPhoton2011B+RunPhoton2011B+HLTD+RECODreHLT+HARVESTDreHLT",
+        "steps": [
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4.33",
+        "name": "RunJet2011B+RunJet2011B+HLTD+RECODreHLT+HARVESTDreHLT",
+        "steps": [
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4.38",
+        "name": "ZElSkim2011B+ZElSkim2011B+HLTDSKIM+RECODreHLT+HARVESTDreHLT",
+        "steps": [
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4.39",
+        "name": "HighMet2011B+HighMet2011B+HLTDSKIM+RECODreHLT+HARVESTDreHLT",
+        "steps": [
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4.44",
+        "name": "RunElectron2012A+RunElectron2012A+HLTD+RECODreHLT+HARVESTDreHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 33
+            },
+            {
+                "errors": 311,
+                "status": "PASSED",
+                "warnings": 273
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 7
             }
         ]
     },
@@ -463,6 +759,33 @@
     },
     {
         "exitcode": 0,
+        "id": "4.78",
+        "name": "WElSkim2012D+WElSkim2012D+HLTDSKIM+RECODreHLT+HARVESTDreHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 31
+            },
+            {
+                "errors": 111,
+                "status": "PASSED",
+                "warnings": 326
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 7
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "102.0",
         "name": "SinglePiE50HCAL+SinglePiE50HCAL",
         "steps": [
@@ -470,6 +793,33 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 5
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "134.0",
+        "name": "MinimumBiasBS+RunMinBias2011B+RECOD+ALCAPROMPT+ALCAHARVD",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 111,
+                "status": "PASSED",
+                "warnings": 612
+            },
+            {
+                "errors": 88,
+                "status": "PASSED",
+                "warnings": 2
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 2
             }
         ]
     },
@@ -487,8 +837,34 @@
     },
     {
         "exitcode": 0,
+        "id": "144.1",
+        "name": "WZMuSkim2010B+WZMuSkim2010B+RECOSKIM",
+        "steps": [
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "144.11",
         "name": "WZEGSkim2010B+WZEGSkim2010B+RECOSKIM",
+        "steps": [
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "144.12",
+        "name": "RunMinBias2010B+RunMinBias2010B+RECOD",
         "steps": [
             {
                 "status": "NOTRUN"
@@ -539,6 +915,19 @@
     },
     {
         "exitcode": 0,
+        "id": "144.16",
+        "name": "RunJet2010B+RunJet2010B+RECOD",
+        "steps": [
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "144.45",
         "name": "RunCosmicsA+RunCosmicsA+RECOD",
         "steps": [
@@ -552,8 +941,50 @@
     },
     {
         "exitcode": 0,
+        "id": "144.5",
+        "name": "RunCosmicsA+RunCosmicsA+RECOCOSD+ALCACOSD",
+        "steps": [
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "144.7",
         "name": "MinimumBias2010B+MinimumBias2010B+RECOSKIMALCA",
+        "steps": [
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "144.8",
+        "name": "WZMuSkim2010A+WZMuSkim2010A+RECOSKIM",
+        "steps": [
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "144.9",
+        "name": "WZEGSkim2010A+WZEGSkim2010A+RECOSKIM",
         "steps": [
             {
                 "status": "NOTRUN"
@@ -900,6 +1331,40 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4003.0",
+        "name": "ZMM+ZMMINPUT+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 110
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 530
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "500199.0",
+        "name": "PREMIXUP15_PU50+PREMIXUP15_PU50",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 168
             }
         ]
     }
