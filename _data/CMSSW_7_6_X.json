@@ -265,7 +265,7 @@
                     }
                 }
             ], 
-            "static_checks": "inprogress", 
+            "static_checks": "slc6_amd64_gcc493", 
             "cmsdistTags": {
                 "slc6_amd64_gcc493": "IB/CMSSW_7_6_X_2016-03-28-2300/slc6_amd64_gcc493", 
                 "slc7_amd64_gcc493": "IB/CMSSW_7_6_X_2016-03-28-2300/slc7_amd64_gcc493"
