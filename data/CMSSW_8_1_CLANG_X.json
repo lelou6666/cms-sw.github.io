@@ -925,7 +925,7 @@
             ], 
             "valgrind": "not-found", 
             "compared_tags": "CMSSW_8_1_CLANG_X_2016-03-28-2300-->CMSSW_8_1_CLANG_X_2016-03-29-1100", 
-            "dqm_tests": "inprogress", 
+            "dqm_tests": "found", 
             "utests": [
                 {
                     "arch": "slc6_amd64_gcc530", 
