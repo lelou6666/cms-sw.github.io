@@ -2434,8 +2434,8 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/mon/8.1-mon-23/CMSSW_8_1_X_2016-03-28-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1014, 
-                        "num_failed": 1
+                        "num_passed": 1041, 
+                        "num_failed": 5
                     }
                 }, 
                 {
@@ -2703,8 +2703,8 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/tue/8.1-tue-11/CMSSW_8_1_X_2016-03-29-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 651, 
-                        "num_failed": 1
+                        "num_passed": 681, 
+                        "num_failed": 2
                     }
                 }, 
                 {
@@ -2713,7 +2713,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/fc22_ppc64le_gcc530/www/tue/8.1-tue-11/CMSSW_8_1_X_2016-03-29-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 793, 
+                        "num_passed": 833, 
                         "num_failed": 1
                     }
                 }, 
@@ -2856,22 +2856,44 @@
         }, 
         {
             "fwlite": [], 
-            "cmsdistTags": {}, 
+            "cmsdistTags": {
+                "slc6_amd64_gcc493": "IB/CMSSW_8_1_X_2016-03-28-2300/slc6_amd64_gcc493"
+            }, 
             "addons": [], 
             "comp_baseline_state": "ok", 
-            "builds": [], 
-            "compared_tags": "CMSSW_8_1_X_2016-03-29-2300-->CMSSW_8_1_X", 
+            "builds": [
+                {
+                    "arch": "slc6_amd64_gcc493", 
+                    "passed": "error", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/wed/8.1-wed-11/CMSSW_8_1_X_2016-03-30-1100/new/logAnalysis.pkl", 
+                    "details": {
+                        "linkError": 1, 
+                        "compError": 3, 
+                        "ignoreWarning": 8
+                    }
+                }
+            ], 
+            "compared_tags": "CMSSW_8_1_X_2016-03-29-2300-->CMSSW_8_1_X_2016-03-30-1100", 
             "valgrind": "inprogress", 
-            "utests": [], 
+            "utests": [
+                {
+                    "arch": "slc6_amd64_gcc493", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/slc6_amd64_gcc493/www/wed/8.1-wed-11/CMSSW_8_1_X_2016-03-30-1100/new/logAnalysis.pkl']", 
+                    "details": {}
+                }
+            ], 
             "dqm_tests": "inprogress", 
             "relvals": [], 
             "static_checks": "inprogress", 
             "igprof": "inprogress", 
-            "isIB": false, 
+            "isIB": true, 
             "comp_baseline": "inprogress", 
             "inProgress": false, 
-            "release_name": "CMSSW_8_1_X", 
-            "tests_archs": [], 
+            "release_name": "CMSSW_8_1_X_2016-03-30-1100", 
+            "tests_archs": [
+                "slc6_amd64_gcc493"
+            ], 
             "RVExceptions": null, 
             "merged_prs": [
                 {
@@ -2938,6 +2960,28 @@
                     "author_login": "bsunanda"
                 }
             ], 
+            "hlt_tests": "inprogress"
+        }, 
+        {
+            "fwlite": [], 
+            "cmsdistTags": {}, 
+            "addons": [], 
+            "comp_baseline_state": "ok", 
+            "builds": [], 
+            "compared_tags": "CMSSW_8_1_X_2016-03-30-1100-->CMSSW_8_1_X", 
+            "valgrind": "inprogress", 
+            "utests": [], 
+            "dqm_tests": "inprogress", 
+            "relvals": [], 
+            "static_checks": "inprogress", 
+            "igprof": "inprogress", 
+            "isIB": false, 
+            "comp_baseline": "inprogress", 
+            "inProgress": false, 
+            "release_name": "CMSSW_8_1_X", 
+            "tests_archs": [], 
+            "RVExceptions": null, 
+            "merged_prs": [], 
             "hlt_tests": "inprogress"
         }
     ]
