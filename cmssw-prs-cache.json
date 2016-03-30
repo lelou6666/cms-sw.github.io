@@ -6614,6 +6614,13 @@
     "title": "Change LogWarning to LogTrace", 
     "user_ref": "rekovic-hlt-80X-turnOff-LogWarning"
   }, 
+  "13783": {
+    "author": "heppye", 
+    "branch": "CMSSW_5_3_X", 
+    "hash": "238cea94404ab0a8aece9800b8051d1c213ba4be", 
+    "title": "add decay file for BPH", 
+    "user_ref": "patch24"
+  }, 
   "13784": {
     "author": "mmusich", 
     "branch": "CMSSW_8_1_X", 
@@ -6704,6 +6711,20 @@
     "hash": "241df34918b51fc94a8bf8cc28860488ef03fd1a", 
     "title": "Fix crash in CorrelationConditions uGT emulator", 
     "user_ref": "l1t-fixCorrlCond-EtSumVec-80x"
+  }, 
+  "13811": {
+    "author": "heppye", 
+    "branch": "CMSSW_5_3_X", 
+    "hash": "f4b56db13c7cfe9deeccd35ec27e21b4c3435b3f", 
+    "title": "add BPH decay file", 
+    "user_ref": "patch25"
+  }, 
+  "13812": {
+    "author": "heppye", 
+    "branch": "CMSSW_5_3_X", 
+    "hash": "329f787c4551a60188af7fa05d4e86260d695aa1", 
+    "title": "add decay file for BPH", 
+    "user_ref": "patch26"
   }, 
   "13814": {
     "author": "hroskes", 

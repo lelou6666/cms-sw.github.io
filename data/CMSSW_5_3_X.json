@@ -1879,7 +1879,35 @@
             "inProgress": false, 
             "release_name": "CMSSW_5_3_X", 
             "RVExceptions": null, 
-            "merged_prs": [], 
+            "merged_prs": [
+                {
+                    "hash": "238cea94404ab0a8aece9800b8051d1c213ba4be", 
+                    "title": "add decay file for BPH", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/13783", 
+                    "number": "13783", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "heppye"
+                }, 
+                {
+                    "hash": "329f787c4551a60188af7fa05d4e86260d695aa1", 
+                    "title": "add decay file for BPH", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/13812", 
+                    "number": "13812", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "heppye"
+                }, 
+                {
+                    "hash": "f4b56db13c7cfe9deeccd35ec27e21b4c3435b3f", 
+                    "title": "add BPH decay file", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/13811", 
+                    "number": "13811", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "heppye"
+                }
+            ], 
             "hlt_tests": "inprogress"
         }
     ]
