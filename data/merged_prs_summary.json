@@ -7466,20 +7466,38 @@
                 "fwlite": [], 
                 "addons": [], 
                 "comp_baseline_state": "ok", 
-                "builds": [], 
+                "builds": [
+                    {
+                        "arch": "slc6_amd64_gcc481", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc481/www/wed/7.1-wed-11/CMSSW_7_1_X_2016-03-30-1100/new/logAnalysis.pkl", 
+                        "details": {}
+                    }
+                ], 
                 "valgrind": "not-found", 
-                "compared_tags": "CMSSW_7_1_X_2016-03-28-2300-->CMSSW_7_1_X", 
+                "compared_tags": "CMSSW_7_1_X_2016-03-28-2300-->CMSSW_7_1_X_2016-03-30-1100", 
                 "dqm_tests": "inprogress", 
-                "utests": [], 
-                "cmsdistTags": {}, 
+                "utests": [
+                    {
+                        "arch": "slc6_amd64_gcc481", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc6_amd64_gcc481/www/wed/7.1-wed-11/CMSSW_7_1_X_2016-03-30-1100/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }
+                ], 
+                "cmsdistTags": {
+                    "slc6_amd64_gcc481": "IB/CMSSW_7_1_X_2016-03-28-2300/slc6_amd64_gcc481"
+                }, 
                 "igprof": "not-found", 
                 "relvals": [], 
                 "static_checks": "not-found", 
-                "isIB": false, 
-                "tests_archs": [], 
+                "isIB": true, 
+                "tests_archs": [
+                    "slc6_amd64_gcc481"
+                ], 
                 "comp_baseline": "inprogress", 
                 "inProgress": false, 
-                "release_name": "CMSSW_7_1_X", 
+                "release_name": "CMSSW_7_1_X_2016-03-30-1100", 
                 "RVExceptions": null, 
                 "merged_prs": [
                     {
@@ -7492,6 +7510,28 @@
                         "author_login": "bsunanda"
                     }
                 ], 
+                "hlt_tests": "inprogress"
+            }, 
+            {
+                "fwlite": [], 
+                "addons": [], 
+                "comp_baseline_state": "ok", 
+                "builds": [], 
+                "valgrind": "not-found", 
+                "compared_tags": "CMSSW_7_1_X_2016-03-30-1100-->CMSSW_7_1_X", 
+                "dqm_tests": "inprogress", 
+                "utests": [], 
+                "cmsdistTags": {}, 
+                "igprof": "not-found", 
+                "relvals": [], 
+                "static_checks": "not-found", 
+                "isIB": false, 
+                "tests_archs": [], 
+                "comp_baseline": "inprogress", 
+                "inProgress": false, 
+                "release_name": "CMSSW_7_1_X", 
+                "RVExceptions": null, 
+                "merged_prs": [], 
                 "hlt_tests": "inprogress"
             }
         ]
@@ -12877,7 +12917,18 @@
                 ], 
                 "dqm_tests": "inprogress", 
                 "igprof": "not-found", 
-                "relvals": [], 
+                "relvals": [
+                    {
+                        "done": false, 
+                        "arch": "slc6_amd64_gcc491", 
+                        "passed": false, 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/wed/7.5-wed-11/CMSSW_7_5_X_2016-03-30-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 5, 
+                            "num_failed": 5
+                        }
+                    }
+                ], 
                 "static_checks": "inprogress", 
                 "cmsdistTags": {
                     "slc6_amd64_gcc491": "IB/CMSSW_7_5_X_2016-03-28-2300/slc6_amd64_gcc491"
@@ -13609,13 +13660,13 @@
                 "igprof": "not-found", 
                 "relvals": [
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "slc6_amd64_gcc530", 
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/tue/8.0.THREADED-tue-11/CMSSW_8_0_THREADED_X_2016-03-29-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1219, 
-                            "num_failed": 3
+                            "num_passed": 1236, 
+                            "num_failed": 6
                         }
                     }
                 ], 
@@ -22078,7 +22129,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/mon/8.1-mon-23/CMSSW_8_1_X_2016-03-28-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 853, 
+                            "num_passed": 884, 
                             "num_failed": 1
                         }
                     }, 
@@ -22347,7 +22398,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/tue/8.1-tue-11/CMSSW_8_1_X_2016-03-29-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 544, 
+                            "num_passed": 563, 
                             "num_failed": 1
                         }
                     }, 
@@ -22357,7 +22408,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/fc22_ppc64le_gcc530/www/tue/8.1-tue-11/CMSSW_8_1_X_2016-03-29-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 562, 
+                            "num_passed": 607, 
                             "num_failed": 0
                         }
                     }, 
