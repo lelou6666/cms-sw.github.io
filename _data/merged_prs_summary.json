@@ -16067,8 +16067,13 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/wed/8.1.CLANG-wed-11/CMSSW_8_1_CLANG_X_2016-03-30-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
+<<<<<<< HEAD
                             "num_passed": 71, 
                             "num_failed": 68
+=======
+                            "num_passed": 170, 
+                            "num_failed": 82
+>>>>>>> refs/remotes/cms-sw/master
                         }
                     }
                 ], 
@@ -19737,8 +19742,13 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/wed/8.1.THREADED-wed-11/CMSSW_8_1_THREADED_X_2016-03-30-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
+<<<<<<< HEAD
                             "num_passed": 677, 
                             "num_failed": 128
+=======
+                            "num_passed": 707, 
+                            "num_failed": 131
+>>>>>>> refs/remotes/cms-sw/master
                         }
                     }
                 ], 
@@ -20009,62 +20019,22 @@
             }, 
             {
                 "fwlite": [], 
-                "cmsdistTags": {
-                    "slc7_aarch64_gcc530": "Not Found"
-                }, 
-                "addons": [
-                    {
-                        "arch": "slc7_aarch64_gcc530", 
-                        "passed": true, 
-                        "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/tue/8.1-tue-23/CMSSW_8_1_X_2016-03-22-2300/addOnTests.log", 
-                        "details": {}
-                    }
-                ], 
+                "cmsdistTags": {}, 
+                "addons": [], 
                 "comp_baseline_state": "ok", 
-                "builds": [
-                    {
-                        "arch": "slc7_aarch64_gcc530", 
-                        "passed": "warning", 
-                        "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/tue/8.1-tue-23/CMSSW_8_1_X_2016-03-22-2300/new/logAnalysis.pkl", 
-                        "details": {
-                            "compWarning": 1
-                        }
-                    }
-                ], 
+                "builds": [], 
                 "compared_tags": "CMSSW_8_1_X_2016-03-22-1100-->CMSSW_8_1_X_2016-03-22-2300", 
                 "valgrind": "found", 
-                "utests": [
-                    {
-                        "arch": "slc7_aarch64_gcc530", 
-                        "passed": "failed", 
-                        "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/tue/8.1-tue-23/CMSSW_8_1_X_2016-03-22-2300/unitTests-summary.log", 
-                        "details": {
-                            "num_fails": "29"
-                        }
-                    }
-                ], 
+                "utests": [], 
                 "dqm_tests": "found", 
-                "relvals": [
-                    {
-                        "done": true, 
-                        "arch": "slc7_aarch64_gcc530", 
-                        "passed": false, 
-                        "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/tue/8.1-tue-23/CMSSW_8_1_X_2016-03-22-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                        "details": {
-                            "num_passed": 817, 
-                            "num_failed": 126
-                        }
-                    }
-                ], 
+                "relvals": [], 
                 "static_checks": "slc6_amd64_gcc530", 
                 "igprof": "found", 
                 "isIB": true, 
                 "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_8_1_X_2016-03-22-2300/slc6_amd64_gcc530/-GenuineIntel/matrix-results", 
                 "inProgress": false, 
                 "release_name": "CMSSW_8_1_X_2016-03-22-2300", 
-                "tests_archs": [
-                    "slc7_aarch64_gcc530"
-                ], 
+                "tests_archs": [], 
                 "RVExceptions": null, 
                 "merged_prs": [
                     {
@@ -22745,8 +22715,13 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/wed/8.1-wed-11/CMSSW_8_1_X_2016-03-30-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
+<<<<<<< HEAD
                             "num_passed": 461, 
                             "num_failed": 100
+=======
+                            "num_passed": 520, 
+                            "num_failed": 116
+>>>>>>> refs/remotes/cms-sw/master
                         }
                     }
                 ], 
