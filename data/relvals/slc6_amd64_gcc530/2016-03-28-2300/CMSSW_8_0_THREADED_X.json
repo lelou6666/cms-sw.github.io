@@ -1526,6 +1526,38 @@
     },
     {
         "exitcode": 0,
+        "id": "8.0",
+        "name": "BeamHalo+BeamHaloINPUT+DIGICOS+RECOCOS+ALCABH+HARVESTCOS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 80
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 615
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 59
+            },
+            {
+                "errors": 5,
+                "status": "PASSED",
+                "warnings": 12
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "9.0",
         "name": "Higgs200ChargedTaus+Higgs200ChargedTausINPUT+DIGI+RECO+HARVEST",
         "steps": [
@@ -8115,6 +8147,18 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 7
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250199.0",
+        "name": "PREMIXUP15_PU25+PREMIXUP15_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 99
             }
         ]
     },
