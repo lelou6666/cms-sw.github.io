@@ -6698,12 +6698,47 @@
     "title": "Fix crash in HcalDumpConditions.cc ", 
     "user_ref": "fix_crash_hcal_db_dump"
   }, 
+  "13848": {
+    "author": "bsunanda", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "bed092daad21f9eb10ac05e20f1556f6d675de93", 
+    "title": "bsunanda:Phase2-gem12 Get geometry information of GEM detector", 
+    "user_ref": "Phase2-gem12"
+  }, 
   "13850": {
     "author": "alja", 
     "branch": "CMSSW_8_0_X", 
     "hash": "6b776bf56d4ea100b587ca8e1154651ce3f3fced", 
     "title": "8x Fireworks: move clipping cone apex in 3D region view ", 
     "user_ref": "clippAppexOffset-8x"
+  }, 
+  "13852": {
+    "author": "Martin-Grunewald", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "189f619cafea31ae00940e1e16d72a10efd01a77", 
+    "title": "Less verbose HLTPrescaleProvider (81X)", 
+    "user_ref": "HLTPrescaleProviderVerbosity"
+  }, 
+  "13855": {
+    "author": "wmtan", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "5e1d7fbecd9e6eb2c59f61d3dc05f030bfeaa7b9", 
+    "title": "Change auto_ptr to unique_ptr in text", 
+    "user_ref": "AutoPtrToUniquePtrInText"
+  }, 
+  "13859": {
+    "author": "Dr15Jones", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "58dccb80cdf0355be53c32537d0f15081392e72a", 
+    "title": "mv test record.cppunit.cpp from DataFormats/FWLite to PhysicsTools/Co", 
+    "user_ref": "mvFWLiteEventSetupTestToPhysicsTools"
+  }, 
+  "13860": {
+    "author": "alja", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "d9c21795afc60658ce1f45341c75a06d9ef92243", 
+    "title": "80x Fireworks: Set classic root gui style", 
+    "user_ref": "guistyleclassic"
   }, 
   "1407": {
     "author": "ingabu", 

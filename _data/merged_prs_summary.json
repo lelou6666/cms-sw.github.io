@@ -13534,7 +13534,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/tue/8.0.THREADED-tue-11/CMSSW_8_0_THREADED_X_2016-03-29-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1057, 
+                            "num_passed": 1061, 
                             "num_failed": 1
                         }
                     }
@@ -14771,7 +14771,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/tue/8.0-tue-11/CMSSW_8_0_X_2016-03-29-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 324, 
+                            "num_passed": 422, 
                             "num_failed": 3
                         }
                     }, 
@@ -15783,7 +15783,7 @@
                 "igprof": "not-found", 
                 "relvals": [
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "slc6_amd64_gcc530", 
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/tue/8.1.CLANG-tue-11/CMSSW_8_1_CLANG_X_2016-03-29-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
@@ -15853,7 +15853,53 @@
                 "release_name": "CMSSW_8_1_X", 
                 "tests_archs": [], 
                 "RVExceptions": null, 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "189f619cafea31ae00940e1e16d72a10efd01a77", 
+                        "title": "Less verbose HLTPrescaleProvider (81X)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13852", 
+                        "number": "13852", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Martin-Grunewald"
+                    }, 
+                    {
+                        "hash": "bed092daad21f9eb10ac05e20f1556f6d675de93", 
+                        "title": "bsunanda:Phase2-gem12 Get geometry information of GEM detector", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13848", 
+                        "number": "13848", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "5e1d7fbecd9e6eb2c59f61d3dc05f030bfeaa7b9", 
+                        "title": "Change auto_ptr to unique_ptr in text", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13855", 
+                        "number": "13855", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "wmtan"
+                    }, 
+                    {
+                        "hash": "58dccb80cdf0355be53c32537d0f15081392e72a", 
+                        "title": "mv test record.cppunit.cpp from DataFormats/FWLite to PhysicsTools/Co", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13859", 
+                        "number": "13859", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "d9c21795afc60658ce1f45341c75a06d9ef92243", 
+                        "title": "80x Fireworks: Set classic root gui style", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13860", 
+                        "number": "13860", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "alja"
+                    }
+                ], 
                 "fwlite": []
             }
         ]
@@ -16981,7 +17027,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/tue/8.1.DEVEL-tue-11/CMSSW_8_1_DEVEL_X_2016-03-29-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 799, 
+                            "num_passed": 839, 
                             "num_failed": 2
                         }
                     }
@@ -18125,7 +18171,53 @@
                 "release_name": "CMSSW_8_1_X", 
                 "tests_archs": [], 
                 "RVExceptions": null, 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "189f619cafea31ae00940e1e16d72a10efd01a77", 
+                        "title": "Less verbose HLTPrescaleProvider (81X)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13852", 
+                        "number": "13852", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Martin-Grunewald"
+                    }, 
+                    {
+                        "hash": "bed092daad21f9eb10ac05e20f1556f6d675de93", 
+                        "title": "bsunanda:Phase2-gem12 Get geometry information of GEM detector", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13848", 
+                        "number": "13848", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "5e1d7fbecd9e6eb2c59f61d3dc05f030bfeaa7b9", 
+                        "title": "Change auto_ptr to unique_ptr in text", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13855", 
+                        "number": "13855", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "wmtan"
+                    }, 
+                    {
+                        "hash": "58dccb80cdf0355be53c32537d0f15081392e72a", 
+                        "title": "mv test record.cppunit.cpp from DataFormats/FWLite to PhysicsTools/Co", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13859", 
+                        "number": "13859", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "d9c21795afc60658ce1f45341c75a06d9ef92243", 
+                        "title": "80x Fireworks: Set classic root gui style", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13860", 
+                        "number": "13860", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "alja"
+                    }
+                ], 
                 "fwlite": []
             }
         ]
@@ -19137,8 +19229,8 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/tue/8.1.THREADED-tue-11/CMSSW_8_1_THREADED_X_2016-03-29-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1063, 
-                            "num_failed": 6
+                            "num_passed": 1099, 
+                            "num_failed": 10
                         }
                     }
                 ], 
@@ -19202,7 +19294,53 @@
                 "release_name": "CMSSW_8_1_X", 
                 "tests_archs": [], 
                 "RVExceptions": null, 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "189f619cafea31ae00940e1e16d72a10efd01a77", 
+                        "title": "Less verbose HLTPrescaleProvider (81X)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13852", 
+                        "number": "13852", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Martin-Grunewald"
+                    }, 
+                    {
+                        "hash": "bed092daad21f9eb10ac05e20f1556f6d675de93", 
+                        "title": "bsunanda:Phase2-gem12 Get geometry information of GEM detector", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13848", 
+                        "number": "13848", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "5e1d7fbecd9e6eb2c59f61d3dc05f030bfeaa7b9", 
+                        "title": "Change auto_ptr to unique_ptr in text", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13855", 
+                        "number": "13855", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "wmtan"
+                    }, 
+                    {
+                        "hash": "58dccb80cdf0355be53c32537d0f15081392e72a", 
+                        "title": "mv test record.cppunit.cpp from DataFormats/FWLite to PhysicsTools/Co", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13859", 
+                        "number": "13859", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "d9c21795afc60658ce1f45341c75a06d9ef92243", 
+                        "title": "80x Fireworks: Set classic root gui style", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13860", 
+                        "number": "13860", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "alja"
+                    }
+                ], 
                 "fwlite": []
             }
         ]
@@ -21717,7 +21855,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/mon/8.1-mon-23/CMSSW_8_1_X_2016-03-28-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 488, 
+                            "num_passed": 514, 
                             "num_failed": 0
                         }
                     }, 
@@ -21986,7 +22124,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/tue/8.1-tue-11/CMSSW_8_1_X_2016-03-29-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 287, 
+                            "num_passed": 299, 
                             "num_failed": 1
                         }
                     }, 
@@ -21996,7 +22134,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/fc22_ppc64le_gcc530/www/tue/8.1-tue-11/CMSSW_8_1_X_2016-03-29-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 137, 
+                            "num_passed": 183, 
                             "num_failed": 0
                         }
                     }, 
@@ -22119,7 +22257,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/tue/8.1-tue-23/CMSSW_8_1_X_2016-03-29-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 741, 
+                            "num_passed": 789, 
                             "num_failed": 7
                         }
                     }
@@ -22156,7 +22294,53 @@
                 "release_name": "CMSSW_8_1_X", 
                 "tests_archs": [], 
                 "RVExceptions": null, 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "189f619cafea31ae00940e1e16d72a10efd01a77", 
+                        "title": "Less verbose HLTPrescaleProvider (81X)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13852", 
+                        "number": "13852", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Martin-Grunewald"
+                    }, 
+                    {
+                        "hash": "bed092daad21f9eb10ac05e20f1556f6d675de93", 
+                        "title": "bsunanda:Phase2-gem12 Get geometry information of GEM detector", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13848", 
+                        "number": "13848", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "5e1d7fbecd9e6eb2c59f61d3dc05f030bfeaa7b9", 
+                        "title": "Change auto_ptr to unique_ptr in text", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13855", 
+                        "number": "13855", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "wmtan"
+                    }, 
+                    {
+                        "hash": "58dccb80cdf0355be53c32537d0f15081392e72a", 
+                        "title": "mv test record.cppunit.cpp from DataFormats/FWLite to PhysicsTools/Co", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13859", 
+                        "number": "13859", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "d9c21795afc60658ce1f45341c75a06d9ef92243", 
+                        "title": "80x Fireworks: Set classic root gui style", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/13860", 
+                        "number": "13860", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "alja"
+                    }
+                ], 
                 "hlt_tests": "inprogress"
             }
         ]
