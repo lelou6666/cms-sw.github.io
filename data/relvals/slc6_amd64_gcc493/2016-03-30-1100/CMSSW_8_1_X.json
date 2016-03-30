@@ -15,7 +15,9 @@
                 "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -35,7 +37,9 @@
                 "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -55,7 +59,9 @@
                 "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -75,10 +81,14 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -98,10 +108,14 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -121,10 +135,14 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -144,10 +162,14 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -167,10 +189,14 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -190,10 +216,41 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "134.809",
+        "name": "RunSingleEl2015C+RunSingleEl2015C+HLTDR2_25ns+RECODR2_25nsreHLT+HARVESTDR2_25nsreHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -213,10 +270,14 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -236,10 +297,14 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -259,10 +324,14 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -282,10 +351,14 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -305,10 +378,68 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "134.907",
+        "name": "RunDoubleEGPrpt2015D+RunDoubleEGPrpt2015D+HLTDR2_25ns+RECODR2_25nsreHLT+HARVESTDR2_25nsreHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "134.908",
+        "name": "RunSingleMuPrpt2015D+RunSingleMuPrpt2015D+HLTDR2_25ns+RECODR2_25nsreHLT+HARVESTDR2_25nsreHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -328,10 +459,14 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -351,10 +486,14 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -374,10 +513,14 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -397,7 +540,41 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "1356.0",
+        "name": "ZEE_13_DBLMINIAOD+ZEE_13_DBLMINIAOD+DIGIUP15+RECOAODUP15+HARVESTUP15+DBLMINIAODMCUP15NODQM",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 52
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
                 "status": "NOTRUN"
@@ -420,10 +597,14 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -443,10 +624,14 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -466,10 +651,14 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -489,10 +678,14 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -512,10 +705,14 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -535,10 +732,14 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -558,10 +759,14 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -581,10 +786,14 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -604,10 +813,14 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -627,10 +840,14 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -650,10 +867,36 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "250200.1",
+        "name": "ProdZEE_13_pmx25ns+ProdZEE_13+DIGIPRMXUP15_PROD_PU25+RECOPRMXUP15PROD_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 71
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -673,10 +916,14 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -696,10 +943,14 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -719,10 +970,14 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -742,10 +997,14 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -765,10 +1024,14 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -788,10 +1051,14 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -811,10 +1078,14 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             }
         ]
     },
@@ -834,10 +1105,71 @@
                 "warnings": 0
             },
             {
-                "status": "NOTRUN"
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "1360.0",
+        "name": "TTbar012Jets_NLO_Mad_py8_Evt_13+TTbar012Jets_NLO_Mad_py8_Evt_13+GENSIM_TuneCUETP8M1_13TeV_aMCatNLO_FXFX_5f_max2j_max1p_LHE_py8_Evt+DIGIUP15+RECOUP15+HARVESTUP15",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 5
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 122
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
             },
             {
                 "status": "NOTRUN"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "45.0",
+        "name": "ZpTT_1500_8TeV+ZpTT_1500_8TeVINPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 32
+            },
+            {
+                "errors": 200,
+                "status": "PASSED",
+                "warnings": 222
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 9
             }
         ]
     }
