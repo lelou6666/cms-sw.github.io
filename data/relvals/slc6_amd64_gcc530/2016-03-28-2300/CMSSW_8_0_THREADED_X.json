@@ -1386,6 +1386,65 @@
     },
     {
         "exitcode": 0,
+        "id": "7.1",
+        "name": "CosmicsSPLoose+CosmicsSPLoose+DIGICOS+RECOCOS+ALCACOS+HARVESTCOS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 8
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 5,
+                "status": "PASSED",
+                "warnings": 12
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "9.0",
+        "name": "Higgs200ChargedTaus+Higgs200ChargedTausINPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 54
+            },
+            {
+                "errors": 200,
+                "status": "PASSED",
+                "warnings": 1940
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 9
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "10.0",
         "name": "ADDMonoJet_d3MD3+ADDMonoJet_d3MD3INPUT+DIGI+RECO+HARVEST",
         "steps": [
@@ -1769,6 +1828,33 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 153
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "26.0",
+        "name": "WE+WEINPUT+DIGI+RECOAlCaCalo+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 243
+            },
+            {
+                "errors": 200,
+                "status": "PASSED",
+                "warnings": 2028
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 9
             }
         ]
     },
@@ -2578,6 +2664,28 @@
     },
     {
         "exitcode": 0,
+        "id": "132.0",
+        "name": "LM9p+LM9p+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 38
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 80
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 1363
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "133.0",
         "name": "RSGrav+RSGrav+DIGI+RECO",
         "steps": [
@@ -3238,6 +3346,33 @@
                 "errors": 17,
                 "status": "PASSED",
                 "warnings": 783
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 7
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "134.902",
+        "name": "RunDoubleEG2015D+RunDoubleEG2015D+HLTDR2_25ns+RECODR2_25nsreHLT+HARVESTDR2_25nsreHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 3551
+            },
+            {
+                "errors": 17,
+                "status": "PASSED",
+                "warnings": 2214
             },
             {
                 "errors": 0,
@@ -4049,6 +4184,33 @@
                 "errors": 20,
                 "status": "PASSED",
                 "warnings": 951
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 9
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "205.0",
+        "name": "ZTT+ZTTINPUT+DIGIPU1+RECOPU1+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 77
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 1174
             },
             {
                 "errors": 3,
@@ -5471,6 +5633,33 @@
     },
     {
         "exitcode": 0,
+        "id": "1323.0",
+        "name": "NuGun_UP15+NuGun_UP15INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 99
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 7
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "1324.0",
         "name": "TTbarLepton_13+TTbarLepton_13INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
         "steps": [
@@ -6406,6 +6595,33 @@
                 "errors": 2,
                 "status": "PASSED",
                 "warnings": 6
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "10025.0",
+        "name": "ZEE_13+ZEE_13TeV_TuneCUETP8M1_2017_GenSimFullINPUT+DigiFull_2017+RecoFull_2017+HARVESTFull_2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 32
+            },
+            {
+                "errors": 34,
+                "status": "PASSED",
+                "warnings": 556
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 9
             }
         ]
     },
